@@ -1,1 +1,45 @@
 @import 'tailwindcss';
+
+:root {
+	--paper: #faf6ef;
+	--ink: #1c1917;
+	--muted: #78716c;
+	--accent: #b45309;
+	--line: #e7e5e4;
+}
+
+body {
+	background: var(--paper);
+	color: var(--ink);
+	font-family:
+		system-ui,
+		-apple-system,
+		'Segoe UI',
+		sans-serif;
+	min-height: 100vh;
+}
+
+.chip-1 {
+	background: #fde68a;
+	color: #78350f;
+}
+.chip-2 {
+	background: #a7f3d0;
+	color: #064e3b;
+}
+.chip-3 {
+	background: #fbcfe8;
+	color: #831843;
+}
+.chip-4 {
+	background: #bfdbfe;
+	color: #1e3a8a;
+}
+.chip-5 {
+	background: #ddd6fe;
+	color: #4c1d95;
+}
+.chip-6 {
+	background: #fed7aa;
+	color: #7c2d12;
+}
