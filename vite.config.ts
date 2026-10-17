@@ -8,6 +8,8 @@ export default defineConfig({
 	plugins: [
 		tailwindcss(),
 		sveltekit({
+			// GitHub Pages project sites are served from /<repo>/; set BASE_PATH in CI, empty locally
+			paths: { base: (process.env.BASE_PATH ?? '') as '' | `/${string}` },
 			compilerOptions: {
 				// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
 				runes: ({ filename }) =>
