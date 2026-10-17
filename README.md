@@ -73,6 +73,8 @@ Hovering a word in the player or in an episode title shows its short English →
 
 ## Licensing
 
+The code is licensed under the [MIT License](LICENSE). The sample audio, transcripts, and dictionary data have their own terms, described below.
+
 VOA's Special English material is produced by the Voice of America, a US government broadcaster. Per the manythings.org mirror, that material is public domain. Verify the current terms on the VOA site before redistributing it.
 
 `static/data/dictionary.json` is derived from FreeDict eng-rus and is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Share-alike applies to that file.
