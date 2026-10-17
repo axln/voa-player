@@ -1,0 +1,55 @@
+Airbus Delays Development of Hydrogen-Powered Aircraft
+
+European manufacturer Airbus has announced a delay in its development efforts of a hydrogen-powered aircraft. The company explained that progress on the project has been slower and more complex than expected.
+
+Airbus had set a goal to make a zero-emission airplane by 2035. The company has not announced a new target date for the plane’s production. But the French union Force Ouvrière said some of its aircraft workers were recently told the technology was running five to 10 years behind, Reuters news agency reported.
+
+The French news agency AFP reported Airbus also said it had reduced the program’s budget by 25 percent, but was still examining ways to reduce emissions.
+
+"Our ambition and roadmap towards decarbonizing. . .remain unchanged," an Airbus spokesman told AFP.
+
+In September 2020, Airbus presented three hydrogen-fueled airplane designs, called ZEROe, as part of its efforts to decarbonize.
+
+Other airplane manufacturers, however, have centered more on renewable fuels or developing electric-powered planes for short-distance flights.
+
+Airbus noted it has no plans to completely stop developing hydrogen-powered aircraft technology. The company said it sees hydrogen as “a revolutionary energy source for aviation."
+
+However, Airbus said in a statement to Reuters it recognizes that developing systems to produce, transport, and store hydrogen represent “a huge challenge requiring global collaboration and investment."
+
+Difficulties with hydrogen
+
+Hydrogen motors do not release gases that can warm the earth’s atmosphere. Instead, they release water.
+
+However, much of the hydrogen used for fuel is produced using natural gas or coal. Both of these production methods often release carbon dioxide gas, which can warm the atmosphere.
+
+Running renewable electricity through water can produce hydrogen without adding to carbon emissions. However, this process is generally more costly. Transporting and storing hydrogen also present problems.
+
+As a gas at room temperature, hydrogen takes up a very large space. This makes it impossible to use as fuel. It first needs to be turned into a liquid to be transported or stored. And it needs to be cooled to -253° Celsius to be liquefied. This cooling process requires its own source of energy. Liquified hydrogen still takes up four times the space of jet fuel.
+
+The airline industry trade association IATA believes aviation will reach most of its reduction in emissions by using sustainable aviation fuel (SAF). It believes other technologies, like hydrogen, will take longer to develop.
+
+SAF uses food and plant waste from cities, agricultural and forest wastes, and other non-petroleum sources. This fuel is then added to jet fuel in mixtures of 10 to 50 percent to become SAF.
+
+Airbus says it agrees that SAF can also play an important part in reducing emissions, particularly for medium and long-distance flights.
+
+I’m Andrew Smith.
+
+Andrew Smith adapted this story for VOA Learning English based on reporting from Agence France-Presse and Reuters.
+
+______________________________________________________________________
+
+emission -n. a release of gas
+
+ambition -n. a strong desire to achieve a goal
+
+roadmap -n. a plan of action to achieve a goal
+
+renewable -adj. describing resources such as wind, water, and sunlight which are always available
+
+challenge -n. a difficult thing to do or difficult goal to reach
+
+collaboration -n. working well with other people
+
+sustainable -adj. describing resources that can be used again without increasing pollution
+
+petroleum -n. oil found under the surface of the earth or sea.

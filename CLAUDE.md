@@ -4,7 +4,7 @@ A player for VOA Special English audio material. It plays an episode while the o
 
 ## Current status
 
-- Repo: `github.com/axln/voa-player` (public, MIT), `main` branch. Published with GitHub Pages via `.github/workflows/pages.yml` on every push to `main` (https://axln.github.io/voa-player/). Build sets `BASE_PATH=/voa-player`. Latest work: 30 more episodes, grid/list view on the main page (list only on tablet and wider), dictionary covers the new episodes and American spellings, timings for all 47 episodes.
+- Repo: `github.com/axln/voa-player` (public, MIT), `main` branch. Published with GitHub Pages via `.github/workflows/pages.yml` on every push to `main` (https://axln.github.io/voa-player/). Build sets `BASE_PATH=/voa-player`. Latest work: 100 more Learning English episodes (Jan–Mar 2025, 147 in total), timings for all 147 (`npm run align`), dictionary rebuilt with the new transcripts and lemma entries for irregular and comparative forms.
 - Scaffold: SvelteKit 3 with TypeScript, Tailwind, ESLint, Prettier, Vitest and Playwright. Uses `adapter-static`, and `src/routes/+layout.ts` prerenders all routes. `npm run build` passes.
 - Imports: SvelteKit `$lib` and `#lib` aliases did not resolve in this setup, so app code uses relative imports. `$app/paths` exports `resolve()` and `asset()` here, not `base`.
 - Phase 1 (done): sample data for 47 episodes: 10 from 2011 and 37 from 2025. See Data notes.
@@ -31,9 +31,9 @@ A player for VOA Special English audio material. It plays an episode while the o
 - Layout (same for every batch): `static/data/audio/<section>/<id>-<date>.mp3` and `static/data/transcripts/<section>/<id>-<date>.txt`. One manifest, `static/data/episodes.json`, lists every episode with `batch`, `section`, title, date, paths and sources.
 - Batches:
   - `special-english-2011`: 10 Sept 2011 reports from manythings.org mirror pages. Sections are the report names (economics, health, technology, agriculture, education, in-the-news). The voanews.com text links are 404 now, so the text is a mirror copy.
-  - `learning-english-2025`: 37 stories, Jan–Mar 2025, from learningenglish.voanews.com (7 from the first batch and 30 added later). Sections are the site's section slugs. These are VOA's own article texts. The site has no article pages after 6 March 2025 that I could reach, so nothing newer is included.
+  - `learning-english-2025`: 137 stories, Jan–Mar 2025, from learningenglish.voanews.com (7 from the first batch, 30 added later, and 100 more). Sections are the site's section slugs ("American Stories" and "All About America" included). These are VOA's own article texts.
 - Audio and transcripts are both committed (GitHub Pages serves the audio).
-- Freshness: the article sections on learningenglish.voanews.com (and their RSS feeds) stop at about 14 March 2025. Section and archive pages show the same snapshot for every date. Newer items exist as daily podcast audio (e.g., Dec 2025 MP3s on the live page), but their article pages did not load, so no transcripts were found after March 2025.
+- Freshness: article text is readable up to about 20 March 2025. The sitemaps (`learningenglish.voanews.com/sitemap_428_*.xml.gz`) list articles only in the `/a/<slug>/<id>.html` form, and the slug is needed: an ID-only URL does not redirect and returns an empty shell. Newer articles (IDs 8,0xx,xxx and up, 2025–2026) are listed in the sitemaps, but their pages stay empty with any URL form tried, so nothing newer than March 2025 has a transcript. To find more articles, take the slugged sitemap entries and fetch them by slug.
 - Themes: spread downloads across sections (Health & Lifestyle, Science & Technology, Arts & Culture, Words and Their Stories, As It Is, Ask a Teacher, Everyday Grammar). Not yet available: American Stories (newest with audio is 2017), Education Tips (page has no body text), News Words, English in a Minute, English @ the Movies, and Everyday Grammar Video (empty).
 - Fetching: use plain curl with no custom User-Agent (a custom one gets 406). Article pages on learningenglish.voanews.com must be loaded by slug URL (`/a/<slug>/<id>.html`). The ID-only URL returns an empty shell.
 

@@ -1,0 +1,73 @@
+Meta Ends Third-party Fact-Checking, Adds ‘Community Notes’ System
+
+Facebook parent company Meta recently announced changes to the way it tries to identify misinformation and harmful material published on its social media services.
+
+Meta chief Mark Zuckerberg explained in a video that the company had decided to make the changes because the old system had produced “too many mistakes and too much censorship.”
+
+Issues with Meta moderation
+
+Zuckerberg said the moderation system Meta had built needed to be “complex” to examine huge amounts of content in search of material that violated company policies.
+
+However, he noted the problem with such systems is they can make a lot of errors. The Meta chief added about such systems, “Even if they accidentally censor just one percent of posts, that’s millions of people.”
+
+So, he said the company had decided to move to a new system centered on “reducing mistakes, simplifying our policies, and restoring free expression.”
+
+“Community Notes” system
+
+The new method turns over content moderation duties to a “Community Notes” system. The company said this system aims to “empower the community” to decide whether content is acceptable or needs further examination.
+
+The changes will be effective for Meta’s Facebook, Instagram and Threads services. Meta said the new system would become available first to U.S. users in the coming months.
+
+Meta’s former moderation system involved the use of independent, third-party fact-checking organizations. Many of these were large media companies or news agencies. The efforts included digital tools as well as human workers to fact-check content and identify false, inappropriate or harmful material.
+
+Meta said the third-party moderation method ended up identifying too much information for fact-checking. After closer examination, a lot of content should have been considered “legitimate political speech and debate.”
+
+Another problem, the company said, was that the decisions made by content moderators could be affected by their personal beliefs, opinions and biases. One result was that “a program intended to inform too often became a tool to censor.”
+
+Meta’s new Community Notes system is similar to the method used by the social media service X. A statement by Meta said changes to this system will have to be made by users, not anyone from the company.
+
+Meta said, “Just like they do on X, Community Notes will require agreement between people with a range of perspectives to help prevent biased ratings.” The company also invited any users to register to be among the first to try out the system.
+
+How did fact-checkers react to Meta's change?
+
+The International Fact-Checking Network (IFCN) criticized Meta’s latest decision. It said the move threatened to "undo nearly a decade of progress."
+
+The group rejected Zuckerberg's claim that the fact-checking program had become a "tool to censor" users. It noted, that "the freedom to say why something is not true is also free speech."
+
+Milijana Rogač is executive editor of the Serbian fact-checking outlet Istinomer. She told Reuters news agency that she thinks Meta's decision would end up hurting the media industry. Rogač noted that research suggests that many citizens use Meta services as their main source for information. Removing independent fact-checkers “further hinders access to accurate information and news," Rogač said.
+
+How effective are Community Notes?
+
+Not a lot of research has been done on how effective Community Notes systems are. But one effort carried out by the University of California and Johns Hopkins University found in 2024 that community notes entered on X for COVID-19 misinformation were accurate. The research showed the notes used both moderate and high-quality sources and were attached to widely read posts.
+
+However, the number of people taking part in that study was small. Also, the effects the system had on users' opinions and behavior is unknown.
+
+A 2023 study, from the Journal of Online Trust and Safety, said it was harder for users to agree when they examined content related to political issues.
+
+I’m Bryan Lynn.
+
+Bryan Lynn wrote this story, based on reports from Meta, The Associated Press and Reuters.
+
+_____________________________________________________
+
+censorship – n. the system or practice of censoring information contained in books, movies, the internet, etc.
+
+moderate – v. to make sure the rules of an internet discussion are not broken
+
+content –n. writing, audio and visual material found online
+
+inappropriate –adj. something that is not right in a particular situation and which depends on people’s opinions
+
+legitimate – adj. something real
+
+bias – adj. a situation in which you support or oppose something in an unfair way because you are influenced by personal opinions
+
+range –n. all elements of a series of objects or numbers
+
+perspective – n. the way person thins about something
+
+decade – n. a period of 10 years
+
+hinder – v. to make it difficult to do something
+
+accurate – n. true or correct

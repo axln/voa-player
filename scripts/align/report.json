@@ -1,754 +1,2354 @@
 [
-	{
-		"id": 13416,
-		"title": "US Postal Service Warns of Default",
-		"words": 474,
-		"duration": 237.584,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.97,
-			"maxRun": 2,
-			"from": {
-				"scribe": 455,
-				"forced": 5,
-				"none": 14
-			}
-		}
-	},
-	{
-		"id": 13417,
-		"title": "Obama Seeks Quick Passage of Jobs Bill",
-		"words": 646,
-		"duration": 303.125,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.937,
-			"maxRun": 33,
-			"from": {
-				"scribe": 596,
-				"forced": 9,
-				"none": 41
-			}
-		}
-	},
-	{
-		"id": 13418,
-		"title": "Gut Bacteria: We Are What We Eat",
-		"words": 471,
-		"duration": 240.927,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.983,
-			"maxRun": 2,
-			"from": {
-				"scribe": 463,
-				"forced": 0,
-				"none": 8
-			}
-		}
-	},
-	{
-		"id": 13419,
-		"title": "How Technology Has, and Has Not, Changed Since 9-11",
-		"words": 443,
-		"duration": 239.229,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.973,
-			"maxRun": 2,
-			"from": {
-				"scribe": 427,
-				"forced": 4,
-				"none": 12
-			}
-		}
-	},
-	{
-		"id": 13420,
-		"title": "Experts Defend Way of Life for Herders in East Africa",
-		"words": 462,
-		"duration": 240.536,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.983,
-			"maxRun": 2,
-			"from": {
-				"scribe": 447,
-				"forced": 7,
-				"none": 8
-			}
-		}
-	},
-	{
-		"id": 13421,
-		"title": "Simple Steps Can Save Millions of Newborn Lives",
-		"words": 464,
-		"duration": 245.812,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.944,
-			"maxRun": 16,
-			"from": {
-				"scribe": 418,
-				"forced": 20,
-				"none": 26
-			}
-		}
-	},
-	{
-		"id": 13422,
-		"title": "Training Fishermen to Become Fish Farmers",
-		"words": 538,
-		"duration": 240.718,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.981,
-			"maxRun": 2,
-			"from": {
-				"scribe": 519,
-				"forced": 9,
-				"none": 10
-			}
-		}
-	},
-	{
-		"id": 13423,
-		"title": "Greece's Debt Crisis and the Future of Europe",
-		"words": 466,
-		"duration": 240.536,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.979,
-			"maxRun": 2,
-			"from": {
-				"scribe": 445,
-				"forced": 11,
-				"none": 10
-			}
-		}
-	},
-	{
-		"id": 13424,
-		"title": "US Poverty Rate Highest Since 1993",
-		"words": 670,
-		"duration": 330.057,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.943,
-			"maxRun": 4,
-			"from": {
-				"scribe": 582,
-				"forced": 50,
-				"none": 38
-			}
-		}
-	},
-	{
-		"id": 13425,
-		"title": "South Korea Tops 'Information Society' Report",
-		"words": 484,
-		"duration": 269.035,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.975,
-			"maxRun": 2,
-			"from": {
-				"scribe": 469,
-				"forced": 3,
-				"none": 12
-			}
-		}
-	},
-	{
-		"id": 8001341,
-		"title": "A Short History of Spacecraft Landings on the Moon",
-		"words": 598,
-		"duration": 332.251,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.95,
-			"maxRun": 19,
-			"from": {
-				"scribe": 518,
-				"forced": 50,
-				"none": 30
-			}
-		}
-	},
-	{
-		"id": 2688277,
-		"title": "Green Means Spring and Other Things",
-		"words": 514,
-		"duration": 314.175,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.967,
-			"maxRun": 9,
-			"from": {
-				"scribe": 493,
-				"forced": 4,
-				"none": 17
-			}
-		}
-	},
-	{
-		"id": 7997203,
-		"title": "Researchers: South Korea’s Birth Rate Increase Last Year Unclear",
-		"words": 480,
-		"duration": 275.592,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.967,
-			"maxRun": 2,
-			"from": {
-				"scribe": 456,
-				"forced": 8,
-				"none": 16
-			}
-		}
-	},
-	{
-		"id": 7989017,
-		"title": "Beach, Coast, Shore",
-		"words": 464,
-		"duration": 282.984,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.985,
-			"maxRun": 3,
-			"from": {
-				"scribe": 452,
-				"forced": 5,
-				"none": 7
-			}
-		}
-	},
-	{
-		"id": 7983372,
-		"title": "New Flowering Plants for Gardeners to Try",
-		"words": 672,
-		"duration": 473.835,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.969,
-			"maxRun": 3,
-			"from": {
-				"scribe": 636,
-				"forced": 15,
-				"none": 21
-			}
-		}
-	},
-	{
-		"id": 6705484,
-		"title": "Describing Your Birthday",
-		"words": 852,
-		"duration": 421.486,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.952,
-			"maxRun": 29,
-			"from": {
-				"scribe": 762,
-				"forced": 49,
-				"none": 41
-			}
-		}
-	},
-	{
-		"id": 7972740,
-		"title": "Mary Kay: A Leader in the Beauty Product Industry",
-		"words": 460,
-		"duration": 272.118,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.991,
-			"maxRun": 2,
-			"from": {
-				"scribe": 434,
-				"forced": 22,
-				"none": 4
-			}
-		}
-	},
-	{
-		"id": 7949154,
-		"title": "Scientists with Disabilities Seek Changes to Improve their Work",
-		"words": 744,
-		"duration": 445.336,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.964,
-			"maxRun": 22,
-			"from": {
-				"scribe": 711,
-				"forced": 6,
-				"none": 27
-			}
-		}
-	},
-	{
-		"id": 7998600,
-		"title": "Private Lander Carrying NASA Experiments Lands on the Moon",
-		"words": 506,
-		"duration": 296.411,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.933,
-			"maxRun": 21,
-			"from": {
-				"scribe": 463,
-				"forced": 9,
-				"none": 34
-			}
-		}
-	},
-	{
-		"id": 7980848,
-		"title": "How to 'Dish Up' Something Good",
-		"words": 391,
-		"duration": 221.388,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.992,
-			"maxRun": 2,
-			"from": {
-				"scribe": 378,
-				"forced": 10,
-				"none": 3
-			}
-		}
-	},
-	{
-		"id": 7983265,
-		"title": "France Sets New Record in Hunt for Nuclear Fusion",
-		"words": 500,
-		"duration": 301.061,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.96,
-			"maxRun": 16,
-			"from": {
-				"scribe": 475,
-				"forced": 5,
-				"none": 20
-			}
-		}
-	},
-	{
-		"id": 7985917,
-		"title": "Appeal",
-		"words": 495,
-		"duration": 298.58,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.994,
-			"maxRun": 3,
-			"from": {
-				"scribe": 492,
-				"forced": 0,
-				"none": 3
-			}
-		}
-	},
-	{
-		"id": 7983385,
-		"title": "New Fruits and Vegetables for Gardeners to Try",
-		"words": 650,
-		"duration": 443.716,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.983,
-			"maxRun": 4,
-			"from": {
-				"scribe": 632,
-				"forced": 7,
-				"none": 11
-			}
-		}
-	},
-	{
-		"id": 3488629,
-		"title": "Academic Writing: Common Sentence Patterns, Part Three",
-		"words": 812,
-		"duration": 484.545,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.953,
-			"maxRun": 27,
-			"from": {
-				"scribe": 706,
-				"forced": 68,
-				"none": 38
-			}
-		}
-	},
-	{
-		"id": 7975366,
-		"title": "The Westminster Kennel Club Dog Show, the ‘Super Bowl’ of Dog Shows",
-		"words": 360,
-		"duration": 199.497,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.972,
-			"maxRun": 2,
-			"from": {
-				"scribe": 317,
-				"forced": 33,
-				"none": 10
-			}
-		}
-	},
-	{
-		"id": 7908673,
-		"title": "Learn New Skills with Microcredentials",
-		"words": 493,
-		"duration": 285.753,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.97,
-			"maxRun": 15,
-			"from": {
-				"scribe": 460,
-				"forced": 18,
-				"none": 15
-			}
-		}
-	},
-	{
-		"id": 7997495,
-		"title": "Study Shows How Earth’s Orbit Affects Ice Ages",
-		"words": 501,
-		"duration": 270.916,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.91,
-			"maxRun": 25,
-			"from": {
-				"scribe": 452,
-				"forced": 4,
-				"none": 45
-			}
-		}
-	},
-	{
-		"id": 7979814,
-		"title": "The Importance of  Being ‘Dialed In’",
-		"words": 403,
-		"duration": 241.293,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.995,
-			"maxRun": 2,
-			"from": {
-				"scribe": 380,
-				"forced": 21,
-				"none": 2
-			}
-		}
-	},
-	{
-		"id": 7980858,
-		"title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
-		"words": 420,
-		"duration": 234.292,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.962,
-			"maxRun": 10,
-			"from": {
-				"scribe": 389,
-				"forced": 15,
-				"none": 16
-			}
-		}
-	},
-	{
-		"id": 7980779,
-		"title": "Extend, Expand, etc.",
-		"words": 452,
-		"duration": 283.193,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.989,
-			"maxRun": 3,
-			"from": {
-				"scribe": 443,
-				"forced": 4,
-				"none": 5
-			}
-		}
-	},
-	{
-		"id": 7980912,
-		"title": "How to Reduce Risks of Bad Air Quality",
-		"words": 704,
-		"duration": 421.616,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.957,
-			"maxRun": 8,
-			"from": {
-				"scribe": 644,
-				"forced": 30,
-				"none": 30
-			}
-		}
-	},
-	{
-		"id": 7973482,
-		"title": "Visitors Laugh Away Troubles at the HaHaHouse Museum",
-		"words": 468,
-		"duration": 266.658,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.981,
-			"maxRun": 4,
-			"from": {
-				"scribe": 448,
-				"forced": 11,
-				"none": 9
-			}
-		}
-	},
-	{
-		"id": 7926297,
-		"title": "Students with Disabilities Praise Assistive Technology Using AI",
-		"words": 712,
-		"duration": 405.838,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.965,
-			"maxRun": 3,
-			"from": {
-				"scribe": 676,
-				"forced": 11,
-				"none": 25
-			}
-		}
-	},
-	{
-		"id": 7998765,
-		"title": "Wilbur and Orville Wright: The First Airplane",
-		"words": 479,
-		"duration": 266.58,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.987,
-			"maxRun": 2,
-			"from": {
-				"scribe": 441,
-				"forced": 32,
-				"none": 6
-			}
-		}
-	},
-	{
-		"id": 7963085,
-		"title": "Don't Miss a Thing With 'Eagle Eyes'",
-		"words": 639,
-		"duration": 350.537,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.978,
-			"maxRun": 2,
-			"from": {
-				"scribe": 599,
-				"forced": 26,
-				"none": 14
-			}
-		}
-	},
-	{
-		"id": 7974034,
-		"title": "Yellowstone: The World’s First National Park",
-		"words": 382,
-		"duration": 239.752,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.969,
-			"maxRun": 4,
-			"from": {
-				"scribe": 354,
-				"forced": 16,
-				"none": 12
-			}
-		}
-	},
-	{
-		"id": 8003108,
-		"title": "'Watching the Grass Grow' Is Not Fun",
-		"words": 326,
-		"duration": 199.863,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.972,
-			"maxRun": 3,
-			"from": {
-				"scribe": 301,
-				"forced": 16,
-				"none": 9
-			}
-		}
-	},
-	{
-		"id": 8005741,
-		"title": "Total Lunar Eclipse to Turn Moon Red",
-		"words": 446,
-		"duration": 276.924,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.987,
-			"maxRun": 4,
-			"from": {
-				"scribe": 435,
-				"forced": 5,
-				"none": 6
-			}
-		}
-	},
-	{
-		"id": 8002695,
-		"title": "Australian Navy Rescues Rower Crossing Pacific from California",
-		"words": 420,
-		"duration": 222.224,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.988,
-			"maxRun": 3,
-			"from": {
-				"scribe": 398,
-				"forced": 17,
-				"none": 5
-			}
-		}
-	},
-	{
-		"id": 7995839,
-		"title": "Sew and Knit",
-		"words": 379,
-		"duration": 226.142,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.995,
-			"maxRun": 2,
-			"from": {
-				"scribe": 377,
-				"forced": 0,
-				"none": 2
-			}
-		}
-	},
-	{
-		"id": 8001173,
-		"title": "How Daylight Saving Time Affects Health",
-		"words": 676,
-		"duration": 431.308,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.966,
-			"maxRun": 5,
-			"from": {
-				"scribe": 634,
-				"forced": 19,
-				"none": 23
-			}
-		}
-	},
-	{
-		"id": 7990808,
-		"title": "Knitting While Watching Movies Gains Popularity",
-		"words": 457,
-		"duration": 260.049,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.972,
-			"maxRun": 3,
-			"from": {
-				"scribe": 440,
-				"forced": 4,
-				"none": 13
-			}
-		}
-	},
-	{
-		"id": 7990107,
-		"title": "New Discovery Could Explain What Gives Mars its Red Color",
-		"words": 499,
-		"duration": 325.956,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.962,
-			"maxRun": 13,
-			"from": {
-				"scribe": 475,
-				"forced": 5,
-				"none": 19
-			}
-		}
-	},
-	{
-		"id": 7990025,
-		"title": "Scientists Discover Stonehenge-like Circle in Denmark",
-		"words": 358,
-		"duration": 196.963,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.994,
-			"maxRun": 2,
-			"from": {
-				"scribe": 330,
-				"forced": 26,
-				"none": 2
-			}
-		}
-	},
-	{
-		"id": 7989321,
-		"title": "The Planets Gather for a Show in the Evening Sky",
-		"words": 310,
-		"duration": 181.473,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.994,
-			"maxRun": 2,
-			"from": {
-				"scribe": 308,
-				"forced": 0,
-				"none": 2
-			}
-		}
-	},
-	{
-		"id": 7987758,
-		"title": "Japan’s Toyota Builds a City-like Center to Test Robotics, AI",
-		"words": 516,
-		"duration": 335.647,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.957,
-			"maxRun": 8,
-			"from": {
-				"scribe": 485,
-				"forced": 9,
-				"none": 22
-			}
-		}
-	},
-	{
-		"id": "6724744",
-		"title": "Reviewing Your Birthday Message",
-		"words": 627,
-		"duration": 356.702,
-		"method": "merged",
-		"summary": {
-			"coverage": 0.994,
-			"maxRun": 4,
-			"from": {
-				"scribe": 604,
-				"forced": 19,
-				"none": 4
-			}
-		}
-	}
+  {
+    "id": 13416,
+    "title": "US Postal Service Warns of Default",
+    "words": 474,
+    "duration": 237.584,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.97,
+      "maxRun": 2,
+      "from": {
+        "scribe": 455,
+        "forced": 5,
+        "none": 14
+      }
+    }
+  },
+  {
+    "id": 13417,
+    "title": "Obama Seeks Quick Passage of Jobs Bill",
+    "words": 646,
+    "duration": 303.125,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.937,
+      "maxRun": 33,
+      "from": {
+        "scribe": 596,
+        "forced": 9,
+        "none": 41
+      }
+    }
+  },
+  {
+    "id": 13418,
+    "title": "Gut Bacteria: We Are What We Eat",
+    "words": 471,
+    "duration": 240.927,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.983,
+      "maxRun": 2,
+      "from": {
+        "scribe": 463,
+        "forced": 0,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": 13419,
+    "title": "How Technology Has, and Has Not, Changed Since 9-11",
+    "words": 443,
+    "duration": 239.229,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.973,
+      "maxRun": 2,
+      "from": {
+        "scribe": 427,
+        "forced": 4,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": 13420,
+    "title": "Experts Defend Way of Life for Herders in East Africa",
+    "words": 462,
+    "duration": 240.536,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.983,
+      "maxRun": 2,
+      "from": {
+        "scribe": 447,
+        "forced": 7,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": 13421,
+    "title": "Simple Steps Can Save Millions of Newborn Lives",
+    "words": 464,
+    "duration": 245.812,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.944,
+      "maxRun": 16,
+      "from": {
+        "scribe": 418,
+        "forced": 20,
+        "none": 26
+      }
+    }
+  },
+  {
+    "id": 13422,
+    "title": "Training Fishermen to Become Fish Farmers",
+    "words": 538,
+    "duration": 240.718,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.981,
+      "maxRun": 2,
+      "from": {
+        "scribe": 519,
+        "forced": 9,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": 13423,
+    "title": "Greece's Debt Crisis and the Future of Europe",
+    "words": 466,
+    "duration": 240.536,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.979,
+      "maxRun": 2,
+      "from": {
+        "scribe": 445,
+        "forced": 11,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": 13424,
+    "title": "US Poverty Rate Highest Since 1993",
+    "words": 670,
+    "duration": 330.057,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.943,
+      "maxRun": 4,
+      "from": {
+        "scribe": 582,
+        "forced": 50,
+        "none": 38
+      }
+    }
+  },
+  {
+    "id": 13425,
+    "title": "South Korea Tops 'Information Society' Report",
+    "words": 484,
+    "duration": 269.035,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.975,
+      "maxRun": 2,
+      "from": {
+        "scribe": 469,
+        "forced": 3,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": 8001341,
+    "title": "A Short History of Spacecraft Landings on the Moon",
+    "words": 598,
+    "duration": 332.251,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.95,
+      "maxRun": 19,
+      "from": {
+        "scribe": 518,
+        "forced": 50,
+        "none": 30
+      }
+    }
+  },
+  {
+    "id": 2688277,
+    "title": "Green Means Spring and Other Things",
+    "words": 514,
+    "duration": 314.175,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.967,
+      "maxRun": 9,
+      "from": {
+        "scribe": 493,
+        "forced": 4,
+        "none": 17
+      }
+    }
+  },
+  {
+    "id": 7997203,
+    "title": "Researchers: South Korea’s Birth Rate Increase Last Year Unclear",
+    "words": 480,
+    "duration": 275.592,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.967,
+      "maxRun": 2,
+      "from": {
+        "scribe": 456,
+        "forced": 8,
+        "none": 16
+      }
+    }
+  },
+  {
+    "id": 7989017,
+    "title": "Beach, Coast, Shore",
+    "words": 464,
+    "duration": 282.984,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.985,
+      "maxRun": 3,
+      "from": {
+        "scribe": 452,
+        "forced": 5,
+        "none": 7
+      }
+    }
+  },
+  {
+    "id": 7983372,
+    "title": "New Flowering Plants for Gardeners to Try",
+    "words": 672,
+    "duration": 473.835,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.969,
+      "maxRun": 3,
+      "from": {
+        "scribe": 636,
+        "forced": 15,
+        "none": 21
+      }
+    }
+  },
+  {
+    "id": 6705484,
+    "title": "Describing Your Birthday",
+    "words": 852,
+    "duration": 421.486,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.952,
+      "maxRun": 29,
+      "from": {
+        "scribe": 762,
+        "forced": 49,
+        "none": 41
+      }
+    }
+  },
+  {
+    "id": 7972740,
+    "title": "Mary Kay: A Leader in the Beauty Product Industry",
+    "words": 460,
+    "duration": 272.118,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.991,
+      "maxRun": 2,
+      "from": {
+        "scribe": 434,
+        "forced": 22,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": 7949154,
+    "title": "Scientists with Disabilities Seek Changes to Improve their Work",
+    "words": 744,
+    "duration": 445.336,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.964,
+      "maxRun": 22,
+      "from": {
+        "scribe": 711,
+        "forced": 6,
+        "none": 27
+      }
+    }
+  },
+  {
+    "id": 7998600,
+    "title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+    "words": 506,
+    "duration": 296.411,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.933,
+      "maxRun": 21,
+      "from": {
+        "scribe": 463,
+        "forced": 9,
+        "none": 34
+      }
+    }
+  },
+  {
+    "id": 7980848,
+    "title": "How to 'Dish Up' Something Good",
+    "words": 391,
+    "duration": 221.388,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.992,
+      "maxRun": 2,
+      "from": {
+        "scribe": 378,
+        "forced": 10,
+        "none": 3
+      }
+    }
+  },
+  {
+    "id": 7983265,
+    "title": "France Sets New Record in Hunt for Nuclear Fusion",
+    "words": 500,
+    "duration": 301.061,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.96,
+      "maxRun": 16,
+      "from": {
+        "scribe": 475,
+        "forced": 5,
+        "none": 20
+      }
+    }
+  },
+  {
+    "id": 7985917,
+    "title": "Appeal",
+    "words": 495,
+    "duration": 298.58,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 3,
+      "from": {
+        "scribe": 492,
+        "forced": 0,
+        "none": 3
+      }
+    }
+  },
+  {
+    "id": 7983385,
+    "title": "New Fruits and Vegetables for Gardeners to Try",
+    "words": 650,
+    "duration": 443.716,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.983,
+      "maxRun": 4,
+      "from": {
+        "scribe": 632,
+        "forced": 7,
+        "none": 11
+      }
+    }
+  },
+  {
+    "id": 3488629,
+    "title": "Academic Writing: Common Sentence Patterns, Part Three",
+    "words": 812,
+    "duration": 484.545,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.953,
+      "maxRun": 27,
+      "from": {
+        "scribe": 706,
+        "forced": 68,
+        "none": 38
+      }
+    }
+  },
+  {
+    "id": 7975366,
+    "title": "The Westminster Kennel Club Dog Show, the ‘Super Bowl’ of Dog Shows",
+    "words": 360,
+    "duration": 199.497,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.972,
+      "maxRun": 2,
+      "from": {
+        "scribe": 317,
+        "forced": 33,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": 7908673,
+    "title": "Learn New Skills with Microcredentials",
+    "words": 493,
+    "duration": 285.753,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.97,
+      "maxRun": 15,
+      "from": {
+        "scribe": 460,
+        "forced": 18,
+        "none": 15
+      }
+    }
+  },
+  {
+    "id": 7997495,
+    "title": "Study Shows How Earth’s Orbit Affects Ice Ages",
+    "words": 501,
+    "duration": 270.916,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.91,
+      "maxRun": 25,
+      "from": {
+        "scribe": 452,
+        "forced": 4,
+        "none": 45
+      }
+    }
+  },
+  {
+    "id": 7979814,
+    "title": "The Importance of  Being ‘Dialed In’",
+    "words": 403,
+    "duration": 241.293,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.995,
+      "maxRun": 2,
+      "from": {
+        "scribe": 380,
+        "forced": 21,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": 7980858,
+    "title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+    "words": 420,
+    "duration": 234.292,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.962,
+      "maxRun": 10,
+      "from": {
+        "scribe": 389,
+        "forced": 15,
+        "none": 16
+      }
+    }
+  },
+  {
+    "id": 7980779,
+    "title": "Extend, Expand, etc.",
+    "words": 452,
+    "duration": 283.193,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.989,
+      "maxRun": 3,
+      "from": {
+        "scribe": 443,
+        "forced": 4,
+        "none": 5
+      }
+    }
+  },
+  {
+    "id": 7980912,
+    "title": "How to Reduce Risks of Bad Air Quality",
+    "words": 704,
+    "duration": 421.616,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.957,
+      "maxRun": 8,
+      "from": {
+        "scribe": 644,
+        "forced": 30,
+        "none": 30
+      }
+    }
+  },
+  {
+    "id": 7973482,
+    "title": "Visitors Laugh Away Troubles at the HaHaHouse Museum",
+    "words": 468,
+    "duration": 266.658,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.981,
+      "maxRun": 4,
+      "from": {
+        "scribe": 448,
+        "forced": 11,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": 7926297,
+    "title": "Students with Disabilities Praise Assistive Technology Using AI",
+    "words": 712,
+    "duration": 405.838,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.965,
+      "maxRun": 3,
+      "from": {
+        "scribe": 676,
+        "forced": 11,
+        "none": 25
+      }
+    }
+  },
+  {
+    "id": 7998765,
+    "title": "Wilbur and Orville Wright: The First Airplane",
+    "words": 479,
+    "duration": 266.58,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.987,
+      "maxRun": 2,
+      "from": {
+        "scribe": 441,
+        "forced": 32,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": 7963085,
+    "title": "Don't Miss a Thing With 'Eagle Eyes'",
+    "words": 639,
+    "duration": 350.537,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.978,
+      "maxRun": 2,
+      "from": {
+        "scribe": 599,
+        "forced": 26,
+        "none": 14
+      }
+    }
+  },
+  {
+    "id": 7974034,
+    "title": "Yellowstone: The World’s First National Park",
+    "words": 382,
+    "duration": 239.752,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.969,
+      "maxRun": 4,
+      "from": {
+        "scribe": 354,
+        "forced": 16,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": 8003108,
+    "title": "'Watching the Grass Grow' Is Not Fun",
+    "words": 326,
+    "duration": 199.863,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.972,
+      "maxRun": 3,
+      "from": {
+        "scribe": 301,
+        "forced": 16,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": 8005741,
+    "title": "Total Lunar Eclipse to Turn Moon Red",
+    "words": 446,
+    "duration": 276.924,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.987,
+      "maxRun": 4,
+      "from": {
+        "scribe": 435,
+        "forced": 5,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": 8002695,
+    "title": "Australian Navy Rescues Rower Crossing Pacific from California",
+    "words": 420,
+    "duration": 222.224,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.988,
+      "maxRun": 3,
+      "from": {
+        "scribe": 398,
+        "forced": 17,
+        "none": 5
+      }
+    }
+  },
+  {
+    "id": 7995839,
+    "title": "Sew and Knit",
+    "words": 379,
+    "duration": 226.142,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.995,
+      "maxRun": 2,
+      "from": {
+        "scribe": 377,
+        "forced": 0,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": 8001173,
+    "title": "How Daylight Saving Time Affects Health",
+    "words": 676,
+    "duration": 431.308,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.966,
+      "maxRun": 5,
+      "from": {
+        "scribe": 634,
+        "forced": 19,
+        "none": 23
+      }
+    }
+  },
+  {
+    "id": 7990808,
+    "title": "Knitting While Watching Movies Gains Popularity",
+    "words": 457,
+    "duration": 260.049,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.972,
+      "maxRun": 3,
+      "from": {
+        "scribe": 440,
+        "forced": 4,
+        "none": 13
+      }
+    }
+  },
+  {
+    "id": 7990107,
+    "title": "New Discovery Could Explain What Gives Mars its Red Color",
+    "words": 499,
+    "duration": 325.956,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.962,
+      "maxRun": 13,
+      "from": {
+        "scribe": 475,
+        "forced": 5,
+        "none": 19
+      }
+    }
+  },
+  {
+    "id": 7990025,
+    "title": "Scientists Discover Stonehenge-like Circle in Denmark",
+    "words": 358,
+    "duration": 196.963,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 2,
+      "from": {
+        "scribe": 330,
+        "forced": 26,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": 7989321,
+    "title": "The Planets Gather for a Show in the Evening Sky",
+    "words": 310,
+    "duration": 181.473,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 2,
+      "from": {
+        "scribe": 308,
+        "forced": 0,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": 7987758,
+    "title": "Japan’s Toyota Builds a City-like Center to Test Robotics, AI",
+    "words": 516,
+    "duration": 335.647,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.957,
+      "maxRun": 8,
+      "from": {
+        "scribe": 485,
+        "forced": 9,
+        "none": 22
+      }
+    }
+  },
+  {
+    "id": "6724744",
+    "title": "Reviewing Your Birthday Message",
+    "words": 627,
+    "duration": 356.702,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 4,
+      "from": {
+        "scribe": 604,
+        "forced": 19,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "5345471",
+    "title": "Grammar Games at Home: Jeopardy",
+    "words": 643,
+    "duration": 290.638,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.835,
+      "maxRun": 93,
+      "from": {
+        "scribe": 524,
+        "forced": 13,
+        "none": 106
+      }
+    }
+  },
+  {
+    "id": "3947928",
+    "title": "Learning English with English Clubs",
+    "words": 1093,
+    "duration": 457.195,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.904,
+      "maxRun": 94,
+      "from": {
+        "scribe": 950,
+        "forced": 38,
+        "none": 105
+      }
+    }
+  },
+  {
+    "id": "7990415",
+    "title": "Lincoln's Cottage: a Country House for the President",
+    "words": 390,
+    "duration": 215.38,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.959,
+      "maxRun": 10,
+      "from": {
+        "scribe": 370,
+        "forced": 4,
+        "none": 16
+      }
+    }
+  },
+  {
+    "id": "7504521",
+    "title": "'The Open Boat' by Stephen Crane, Part Two",
+    "words": 1544,
+    "duration": 836.441,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.997,
+      "maxRun": 2,
+      "from": {
+        "scribe": 1500,
+        "forced": 40,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "3714862",
+    "title": "Common Adverbs in Conversation: Amplifiers, Downtoners",
+    "words": 944,
+    "duration": 509.048,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.954,
+      "maxRun": 31,
+      "from": {
+        "scribe": 879,
+        "forced": 22,
+        "none": 43
+      }
+    }
+  },
+  {
+    "id": "7989189",
+    "title": "Methods for Protecting Earth against an Asteroid Strike",
+    "words": 673,
+    "duration": 316.656,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.978,
+      "maxRun": 3,
+      "from": {
+        "scribe": 610,
+        "forced": 48,
+        "none": 15
+      }
+    }
+  },
+  {
+    "id": "7979777",
+    "title": "The Goodyear Blimp Has Been Flying Over America for 100 Years",
+    "words": 541,
+    "duration": 312.764,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.987,
+      "maxRun": 3,
+      "from": {
+        "scribe": 487,
+        "forced": 47,
+        "none": 7
+      }
+    }
+  },
+  {
+    "id": "7986616",
+    "title": "James Madison, Father of America’s Constitution",
+    "words": 431,
+    "duration": 272.405,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.986,
+      "maxRun": 2,
+      "from": {
+        "scribe": 425,
+        "forced": 0,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "5651046",
+    "title": "Images Can Help You Retain Vocabulary",
+    "words": 916,
+    "duration": 486.217,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.974,
+      "maxRun": 13,
+      "from": {
+        "scribe": 878,
+        "forced": 14,
+        "none": 24
+      }
+    }
+  },
+  {
+    "id": "7995847",
+    "title": "The Golden Gate Bridge: San Francisco’s Historic Suspension Bridge",
+    "words": 345,
+    "duration": 224.653,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.988,
+      "maxRun": 2,
+      "from": {
+        "scribe": 325,
+        "forced": 16,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "7921334",
+    "title": "How Physical Therapists Can Prevent Future Health Problems",
+    "words": 789,
+    "duration": 408.398,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.985,
+      "maxRun": 6,
+      "from": {
+        "scribe": 757,
+        "forced": 20,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": "7983180",
+    "title": "Philadelphia: a City Famous for its History",
+    "words": 403,
+    "duration": 243.148,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.965,
+      "maxRun": 10,
+      "from": {
+        "scribe": 383,
+        "forced": 6,
+        "none": 14
+      }
+    }
+  },
+  {
+    "id": "7985890",
+    "title": "Scientists Link Gene to Human Speech",
+    "words": 535,
+    "duration": 259.135,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 2,
+      "from": {
+        "scribe": 498,
+        "forced": 33,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "2572601",
+    "title": "'The Open Boat' by Stephen Crane, Part One",
+    "words": 1497,
+    "duration": 825.078,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 4,
+      "from": {
+        "scribe": 1437,
+        "forced": 50,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "3702382",
+    "title": "Adverb and Adjective Choices in Conversation",
+    "words": 791,
+    "duration": 390.74,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.891,
+      "maxRun": 86,
+      "from": {
+        "scribe": 680,
+        "forced": 25,
+        "none": 86
+      }
+    }
+  },
+  {
+    "id": "7970275",
+    "title": "American Culture: Bald Eagle Officially Named National Bird of U.S.",
+    "words": 662,
+    "duration": 368.588,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.973,
+      "maxRun": 7,
+      "from": {
+        "scribe": 629,
+        "forced": 15,
+        "none": 18
+      }
+    }
+  },
+  {
+    "id": "7987894",
+    "title": "American Spy: Virginia Hall",
+    "words": 392,
+    "duration": 256.731,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.995,
+      "maxRun": 2,
+      "from": {
+        "scribe": 384,
+        "forced": 6,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "4113426",
+    "title": "Grow Your Vocabulary by Learning Root Words",
+    "words": 743,
+    "duration": 385.646,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.903,
+      "maxRun": 64,
+      "from": {
+        "scribe": 659,
+        "forced": 12,
+        "none": 72
+      }
+    }
+  },
+  {
+    "id": "7988815",
+    "title": "Skyscrapers, Made in America",
+    "words": 530,
+    "duration": 256.784,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.996,
+      "maxRun": 2,
+      "from": {
+        "scribe": 480,
+        "forced": 48,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7958876",
+    "title": "Rise in ADHD Cases Raises Questions",
+    "words": 855,
+    "duration": 461.035,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.92,
+      "maxRun": 52,
+      "from": {
+        "scribe": 761,
+        "forced": 26,
+        "none": 68
+      }
+    }
+  },
+  {
+    "id": "2615957",
+    "title": "'Rappaccini’s Daughter' by Nathaniel Hawthorne, Part Two",
+    "words": 1472,
+    "duration": 792.581,
+    "method": "merged",
+    "summary": {
+      "coverage": 1,
+      "maxRun": 0,
+      "from": {
+        "scribe": 1388,
+        "forced": 84,
+        "none": 0
+      }
+    }
+  },
+  {
+    "id": "4140658",
+    "title": "Learn Prefixes, Suffixes to Expand Your Vocabulary",
+    "words": 519,
+    "duration": 473.313,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.988,
+      "maxRun": 2,
+      "from": {
+        "scribe": 498,
+        "forced": 15,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7979682",
+    "title": "American Inventors: Rocket Scientist Robert Goddard",
+    "words": 315,
+    "duration": 204.121,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 2,
+      "from": {
+        "scribe": 313,
+        "forced": 0,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7953508",
+    "title": "Experts Provide Tips for Avoiding Computer-linked Vision Trouble",
+    "words": 806,
+    "duration": 456.882,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.985,
+      "maxRun": 4,
+      "from": {
+        "scribe": 766,
+        "forced": 28,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": "7981167",
+    "title": "What Is the Polar Vortex Weather System?",
+    "words": 422,
+    "duration": 264.333,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.919,
+      "maxRun": 22,
+      "from": {
+        "scribe": 381,
+        "forced": 7,
+        "none": 34
+      }
+    }
+  },
+  {
+    "id": "7981777",
+    "title": "Space Agencies Report Increased Risk of Space Rock Striking Earth in 2032",
+    "words": 669,
+    "duration": 363.781,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.976,
+      "maxRun": 6,
+      "from": {
+        "scribe": 590,
+        "forced": 63,
+        "none": 16
+      }
+    }
+  },
+  {
+    "id": "7980863",
+    "title": "Researchers Use Chemical Examinations and Human Smell to Study Ancient Remains",
+    "words": 578,
+    "duration": 341.551,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 2,
+      "from": {
+        "scribe": 574,
+        "forced": 0,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "7972394",
+    "title": "Study: Electrical Medical Device Helps Improve Muscle Strength",
+    "words": 558,
+    "duration": 325.094,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.932,
+      "maxRun": 28,
+      "from": {
+        "scribe": 511,
+        "forced": 9,
+        "none": 38
+      }
+    }
+  },
+  {
+    "id": "7980470",
+    "title": "Tech Tip: How to Block Location Tracking on your Phone",
+    "words": 705,
+    "duration": 415.295,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.957,
+      "maxRun": 13,
+      "from": {
+        "scribe": 652,
+        "forced": 23,
+        "none": 30
+      }
+    }
+  },
+  {
+    "id": "7972239",
+    "title": "Senegal Starts Introducing English in Preschools",
+    "words": 715,
+    "duration": 457.691,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.966,
+      "maxRun": 5,
+      "from": {
+        "scribe": 677,
+        "forced": 14,
+        "none": 24
+      }
+    }
+  },
+  {
+    "id": "7972798",
+    "title": "Airbus Delays Development of Hydrogen-Powered Aircraft",
+    "words": 473,
+    "duration": 312.816,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.924,
+      "maxRun": 18,
+      "from": {
+        "scribe": 434,
+        "forced": 3,
+        "none": 36
+      }
+    }
+  },
+  {
+    "id": "7148252",
+    "title": "Raise Your English Level with More Vocabulary",
+    "words": 314,
+    "duration": 468.114,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.975,
+      "maxRun": 2,
+      "from": {
+        "scribe": 246,
+        "forced": 60,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": "7974949",
+    "title": "Thomas Edison: Inventor and Busy Team Leader",
+    "words": 306,
+    "duration": 183.719,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 2,
+      "from": {
+        "scribe": 293,
+        "forced": 11,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7972396",
+    "title": "WHO Launches New Cancer Drug Plan for Children",
+    "words": 485,
+    "duration": 297.561,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.942,
+      "maxRun": 4,
+      "from": {
+        "scribe": 455,
+        "forced": 2,
+        "none": 28
+      }
+    }
+  },
+  {
+    "id": "7945653",
+    "title": "Saying ‘No’ at Work Can Be Good for Your Health",
+    "words": 808,
+    "duration": 449.28,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.941,
+      "maxRun": 35,
+      "from": {
+        "scribe": 755,
+        "forced": 5,
+        "none": 48
+      }
+    }
+  },
+  {
+    "id": "7972838",
+    "title": "European Telescope Discovers ‘Einstein Ring’ in Nearby Galaxy",
+    "words": 622,
+    "duration": 383.713,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.947,
+      "maxRun": 25,
+      "from": {
+        "scribe": 580,
+        "forced": 9,
+        "none": 33
+      }
+    }
+  },
+  {
+    "id": "7966513",
+    "title": "Monarch Butterfly Count Nears 30-Year Low",
+    "words": 663,
+    "duration": 354.09,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.949,
+      "maxRun": 2,
+      "from": {
+        "scribe": 564,
+        "forced": 65,
+        "none": 34
+      }
+    }
+  },
+  {
+    "id": "7966564",
+    "title": "Regimen",
+    "words": 426,
+    "duration": 266.527,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.948,
+      "maxRun": 17,
+      "from": {
+        "scribe": 398,
+        "forced": 6,
+        "none": 22
+      }
+    }
+  },
+  {
+    "id": "3748407",
+    "title": "'The Fall of the House of Usher,' by Edgar Allan Poe, Part Three",
+    "words": 1598,
+    "duration": 666.932,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.956,
+      "maxRun": 56,
+      "from": {
+        "scribe": 1507,
+        "forced": 21,
+        "none": 70
+      }
+    }
+  },
+  {
+    "id": "7967044",
+    "title": "Nepal Increases Cost of Permits to Climb Everest",
+    "words": 394,
+    "duration": 244.245,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.924,
+      "maxRun": 16,
+      "from": {
+        "scribe": 362,
+        "forced": 2,
+        "none": 30
+      }
+    }
+  },
+  {
+    "id": "3499292",
+    "title": "Academic Writing: Common Sentence Patterns, Part Four",
+    "words": 1166,
+    "duration": 602.88,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.991,
+      "maxRun": 11,
+      "from": {
+        "scribe": 603,
+        "forced": 552,
+        "none": 11
+      }
+    }
+  },
+  {
+    "id": "7972056",
+    "title": "George Washington – the First President",
+    "words": 336,
+    "duration": 162.56,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.893,
+      "maxRun": 32,
+      "from": {
+        "scribe": 289,
+        "forced": 11,
+        "none": 36
+      }
+    }
+  },
+  {
+    "id": "7969789",
+    "title": "Cambodia Warns of ‘Aggressive’ Monkeys around Angkor Wat",
+    "words": 390,
+    "duration": 253.989,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.964,
+      "maxRun": 14,
+      "from": {
+        "scribe": 374,
+        "forced": 2,
+        "none": 14
+      }
+    }
+  },
+  {
+    "id": "7965170",
+    "title": "Important Terms and Ideas for Describing Artificial Intelligence",
+    "words": 755,
+    "duration": 460.904,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.989,
+      "maxRun": 2,
+      "from": {
+        "scribe": 733,
+        "forced": 14,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": "7967294",
+    "title": "What Is the healthiest way to prepare vegetables?",
+    "words": 623,
+    "duration": 346.54,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.99,
+      "maxRun": 2,
+      "from": {
+        "scribe": 604,
+        "forced": 13,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7965013",
+    "title": "The Paradox Museum Miami Aims to Trick the Eye",
+    "words": 620,
+    "duration": 390.191,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.973,
+      "maxRun": 3,
+      "from": {
+        "scribe": 585,
+        "forced": 18,
+        "none": 17
+      }
+    }
+  },
+  {
+    "id": "6474764",
+    "title": "Teachers Use Games for More Enjoyable Learning",
+    "words": 717,
+    "duration": 310.047,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.997,
+      "maxRun": 2,
+      "from": {
+        "scribe": 637,
+        "forced": 78,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7956047",
+    "title": "Researchers in Michigan Aim to Grow Stronger Apple Trees",
+    "words": 616,
+    "duration": 373.969,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.987,
+      "maxRun": 2,
+      "from": {
+        "scribe": 597,
+        "forced": 11,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": "7937612",
+    "title": "How to Lower Your Risk of Dementia Starting in Middle Age",
+    "words": 731,
+    "duration": 363.442,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.986,
+      "maxRun": 2,
+      "from": {
+        "scribe": 655,
+        "forced": 66,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "7965779",
+    "title": "American Places – Gettysburg, Pennsylvania",
+    "words": 434,
+    "duration": 238.681,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.986,
+      "maxRun": 2,
+      "from": {
+        "scribe": 380,
+        "forced": 48,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7964413",
+    "title": "Study: Asteroid Hit Created Two ‘Grand Canyons’ on Moon",
+    "words": 658,
+    "duration": 377.051,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.988,
+      "maxRun": 2,
+      "from": {
+        "scribe": 620,
+        "forced": 30,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": "7962381",
+    "title": "Researchers: Oldest Evidence of Lead Pollution Found in Greece",
+    "words": 436,
+    "duration": 270.916,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.977,
+      "maxRun": 2,
+      "from": {
+        "scribe": 426,
+        "forced": 0,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "7963076",
+    "title": "What Does It Take to Be a 'Power Couple'?",
+    "words": 467,
+    "duration": 274.103,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.996,
+      "maxRun": 2,
+      "from": {
+        "scribe": 448,
+        "forced": 17,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7963018",
+    "title": "Norway Nears Goal to Sell only Electric New Cars",
+    "words": 569,
+    "duration": 302.158,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.967,
+      "maxRun": 3,
+      "from": {
+        "scribe": 531,
+        "forced": 19,
+        "none": 19
+      }
+    }
+  },
+  {
+    "id": "7964993",
+    "title": "What is the Super Bowl?",
+    "words": 469,
+    "duration": 294.687,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.985,
+      "maxRun": 2,
+      "from": {
+        "scribe": 432,
+        "forced": 30,
+        "none": 7
+      }
+    }
+  },
+  {
+    "id": "7958511",
+    "title": "Regarding and Regardless",
+    "words": 437,
+    "duration": 275.984,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 2,
+      "from": {
+        "scribe": 431,
+        "forced": 3,
+        "none": 3
+      }
+    }
+  },
+  {
+    "id": "3738372",
+    "title": "'The Fall of the House of Usher,' by Edgar Allan Poe, Part Two",
+    "words": 1492,
+    "duration": 671.608,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.95,
+      "maxRun": 66,
+      "from": {
+        "scribe": 1387,
+        "forced": 30,
+        "none": 75
+      }
+    }
+  },
+  {
+    "id": "7957412",
+    "title": "Study: Millions of Europeans Could Die from Heat by end of Century",
+    "words": 478,
+    "duration": 290.56,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.904,
+      "maxRun": 16,
+      "from": {
+        "scribe": 426,
+        "forced": 6,
+        "none": 46
+      }
+    }
+  },
+  {
+    "id": "7963028",
+    "title": "Japan Launches New Satellite to Improve Navigation System",
+    "words": 371,
+    "duration": 196.571,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.984,
+      "maxRun": 2,
+      "from": {
+        "scribe": 315,
+        "forced": 50,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7962942",
+    "title": "New US Jet Breaks Sound Barrier in First Flight Test",
+    "words": 746,
+    "duration": 467.879,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.921,
+      "maxRun": 14,
+      "from": {
+        "scribe": 666,
+        "forced": 21,
+        "none": 59
+      }
+    }
+  },
+  {
+    "id": "7958833",
+    "title": "Study Finds India’s Tiger Population Doubled in 12 Years",
+    "words": 524,
+    "duration": 356.937,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.981,
+      "maxRun": 2,
+      "from": {
+        "scribe": 509,
+        "forced": 5,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "7962441",
+    "title": "New Zealand Recognizes a Mountain as a Legal Person",
+    "words": 615,
+    "duration": 394.318,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.99,
+      "maxRun": 4,
+      "from": {
+        "scribe": 592,
+        "forced": 17,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7953686",
+    "title": "Huge Iceberg Could Threaten Penguins in the South Atlantic Ocean",
+    "words": 600,
+    "duration": 363.912,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.987,
+      "maxRun": 2,
+      "from": {
+        "scribe": 570,
+        "forced": 22,
+        "none": 8
+      }
+    }
+  },
+  {
+    "id": "5649722",
+    "title": "How to Write a Good Email",
+    "words": 686,
+    "duration": 374.335,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.952,
+      "maxRun": 30,
+      "from": {
+        "scribe": 632,
+        "forced": 21,
+        "none": 33
+      }
+    }
+  },
+  {
+    "id": "7958185",
+    "title": "US Company Gives Over 18,000 Kilograms of Salmon to Food Bank",
+    "words": 484,
+    "duration": 242.181,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.909,
+      "maxRun": 31,
+      "from": {
+        "scribe": 436,
+        "forced": 4,
+        "none": 44
+      }
+    }
+  },
+  {
+    "id": "7953679",
+    "title": "Scientists Find ‘Chorus Waves’ in Unexpected Part of Space",
+    "words": 361,
+    "duration": 224.157,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.989,
+      "maxRun": 2,
+      "from": {
+        "scribe": 356,
+        "forced": 1,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "7948119",
+    "title": "US Approves Treatment for Severe High Blood Pressure",
+    "words": 651,
+    "duration": 397.296,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.985,
+      "maxRun": 3,
+      "from": {
+        "scribe": 620,
+        "forced": 21,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "7958149",
+    "title": "Conflict Complicates Environmental Problems at the Dead Sea",
+    "words": 554,
+    "duration": 296.15,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.984,
+      "maxRun": 3,
+      "from": {
+        "scribe": 537,
+        "forced": 8,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": "7957452",
+    "title": "Researchers: NASA Asteroid Samples Contain ‘Building Blocks’ of Life",
+    "words": 716,
+    "duration": 438.152,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.943,
+      "maxRun": 21,
+      "from": {
+        "scribe": 665,
+        "forced": 10,
+        "none": 41
+      }
+    }
+  },
+  {
+    "id": "7957322",
+    "title": "Last Four Monkeys Return to ‘Monkey Farm’ in South Carolina",
+    "words": 343,
+    "duration": 164.023,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.988,
+      "maxRun": 2,
+      "from": {
+        "scribe": 302,
+        "forced": 37,
+        "none": 4
+      }
+    }
+  },
+  {
+    "id": "7953635",
+    "title": "‘Kitchen-Table’ Is a Type of Politics",
+    "words": 421,
+    "duration": 268.617,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.998,
+      "maxRun": 1,
+      "from": {
+        "scribe": 408,
+        "forced": 12,
+        "none": 1
+      }
+    }
+  },
+  {
+    "id": "7953499",
+    "title": "What is the Best Kind of Yoga for Beginners?",
+    "words": 682,
+    "duration": 376.007,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.993,
+      "maxRun": 2,
+      "from": {
+        "scribe": 661,
+        "forced": 16,
+        "none": 5
+      }
+    }
+  },
+  {
+    "id": "3726233",
+    "title": "'The Fall of the House of Usher,' by Edgar Allan Poe, Part One",
+    "words": 1539,
+    "duration": 667.847,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.986,
+      "maxRun": 9,
+      "from": {
+        "scribe": 1421,
+        "forced": 96,
+        "none": 22
+      }
+    }
+  },
+  {
+    "id": "7948198",
+    "title": "In India, Sudden Sea Turtle Deaths Cause Concern",
+    "words": 559,
+    "duration": 262.191,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.984,
+      "maxRun": 3,
+      "from": {
+        "scribe": 507,
+        "forced": 43,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": "3997498",
+    "title": "Academic Writing: Common Sentence Patterns, Part Two",
+    "words": 742,
+    "duration": 378.671,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.996,
+      "maxRun": 3,
+      "from": {
+        "scribe": 686,
+        "forced": 53,
+        "none": 3
+      }
+    }
+  },
+  {
+    "id": "7951912",
+    "title": "Taiwan to Kill Tens of Thousands of Iguanas to Protect Farmland",
+    "words": 374,
+    "duration": 238.446,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.976,
+      "maxRun": 2,
+      "from": {
+        "scribe": 354,
+        "forced": 11,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": "7949518",
+    "title": "Is the Pink Substance Dropped on LA Fires Safe?",
+    "words": 619,
+    "duration": 293.878,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.953,
+      "maxRun": 3,
+      "from": {
+        "scribe": 555,
+        "forced": 35,
+        "none": 29
+      }
+    }
+  },
+  {
+    "id": "7951724",
+    "title": "UN Says 250 million Students Missed School in 2024 Because of Weather",
+    "words": 440,
+    "duration": 279.484,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.939,
+      "maxRun": 8,
+      "from": {
+        "scribe": 390,
+        "forced": 23,
+        "none": 27
+      }
+    }
+  },
+  {
+    "id": "7948893",
+    "title": "Colorado Court Rules Elephants Barred from Seeking Zoo Release, Are Not Humans",
+    "words": 431,
+    "duration": 259.997,
+    "method": "merged",
+    "summary": {
+      "coverage": 1,
+      "maxRun": 0,
+      "from": {
+        "scribe": 428,
+        "forced": 3,
+        "none": 0
+      }
+    }
+  },
+  {
+    "id": "7949361",
+    "title": "The American South Gets ‘Once-in-a Lifetime’ Snow and Cold",
+    "words": 612,
+    "duration": 310.883,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.907,
+      "maxRun": 24,
+      "from": {
+        "scribe": 540,
+        "forced": 15,
+        "none": 57
+      }
+    }
+  },
+  {
+    "id": "7945659",
+    "title": "Using Real Trees to Bring Nature Indoors",
+    "words": 717,
+    "duration": 424.777,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.954,
+      "maxRun": 4,
+      "from": {
+        "scribe": 657,
+        "forced": 27,
+        "none": 33
+      }
+    }
+  },
+  {
+    "id": "7938023",
+    "title": "How to Protect Against Increased Viral Spread in Winter",
+    "words": 914,
+    "duration": 573.283,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.968,
+      "maxRun": 6,
+      "from": {
+        "scribe": 850,
+        "forced": 35,
+        "none": 29
+      }
+    }
+  },
+  {
+    "id": "7947747",
+    "title": "Astronauts Stay Busy on International Space Station Awaiting Flight Home",
+    "words": 755,
+    "duration": 453.851,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.962,
+      "maxRun": 18,
+      "from": {
+        "scribe": 706,
+        "forced": 20,
+        "none": 29
+      }
+    }
+  },
+  {
+    "id": "7946045",
+    "title": "Birdwatchers Photograph Prized Waterbirds in Alabama",
+    "words": 569,
+    "duration": 299.024,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.965,
+      "maxRun": 4,
+      "from": {
+        "scribe": 547,
+        "forced": 2,
+        "none": 20
+      }
+    }
+  },
+  {
+    "id": "7940837",
+    "title": "Sometimes We 'Spread Ourself Too Thin'",
+    "words": 371,
+    "duration": 209.241,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.995,
+      "maxRun": 2,
+      "from": {
+        "scribe": 329,
+        "forced": 40,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7939245",
+    "title": "Get Ready for Spring Planting in Winter",
+    "words": 458,
+    "duration": 266.658,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.996,
+      "maxRun": 2,
+      "from": {
+        "scribe": 446,
+        "forced": 10,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7946203",
+    "title": "Researchers Uncover a Bathhouse Complex in Ancient Pompeii",
+    "words": 311,
+    "duration": 197.538,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.994,
+      "maxRun": 2,
+      "from": {
+        "scribe": 307,
+        "forced": 2,
+        "none": 2
+      }
+    }
+  },
+  {
+    "id": "7938144",
+    "title": "Minimal Pairs for Pronunciation",
+    "words": 512,
+    "duration": 310.57,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.982,
+      "maxRun": 6,
+      "from": {
+        "scribe": 502,
+        "forced": 1,
+        "none": 9
+      }
+    }
+  },
+  {
+    "id": "4307363",
+    "title": "'The Blue Hotel,' by Stephen Crane, Part Four",
+    "words": 1631,
+    "duration": 776.568,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.974,
+      "maxRun": 25,
+      "from": {
+        "scribe": 1517,
+        "forced": 72,
+        "none": 42
+      }
+    }
+  },
+  {
+    "id": "7946148",
+    "title": "US Solar Farms Put Hungry Sheep to Work",
+    "words": 619,
+    "duration": 337.659,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.955,
+      "maxRun": 2,
+      "from": {
+        "scribe": 582,
+        "forced": 9,
+        "none": 28
+      }
+    }
+  },
+  {
+    "id": "3988378",
+    "title": "Academic Writing: Common Sentence Patterns, Part One",
+    "words": 768,
+    "duration": 416.705,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.962,
+      "maxRun": 25,
+      "from": {
+        "scribe": 724,
+        "forced": 15,
+        "none": 29
+      }
+    }
+  },
+  {
+    "id": "7946074",
+    "title": "Meta Ends Third-party Fact-Checking, Adds ‘Community Notes’ System",
+    "words": 668,
+    "duration": 400.196,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.94,
+      "maxRun": 14,
+      "from": {
+        "scribe": 607,
+        "forced": 21,
+        "none": 40
+      }
+    }
+  },
+  {
+    "id": "7944856",
+    "title": "Red Coloring Linked to Cancer Risk Banned in US Foods",
+    "words": 528,
+    "duration": 263.079,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.981,
+      "maxRun": 2,
+      "from": {
+        "scribe": 473,
+        "forced": 45,
+        "none": 10
+      }
+    }
+  },
+  {
+    "id": "7940597",
+    "title": "Researchers: Female Family Ties Important to Social Networks",
+    "words": 492,
+    "duration": 298.501,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.976,
+      "maxRun": 2,
+      "from": {
+        "scribe": 477,
+        "forced": 3,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": "7940918",
+    "title": "Nepal Supreme Court Bans Large Business Development in Protected Areas",
+    "words": 390,
+    "duration": 258.116,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.969,
+      "maxRun": 10,
+      "from": {
+        "scribe": 368,
+        "forced": 10,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": "7938206",
+    "title": "Musk: Third Person Receives Computer-Brain Connection from Neuralink",
+    "words": 563,
+    "duration": 285.466,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.979,
+      "maxRun": 2,
+      "from": {
+        "scribe": 503,
+        "forced": 48,
+        "none": 12
+      }
+    }
+  },
+  {
+    "id": "5855771",
+    "title": "Make a Memory Palace to Improve Your English",
+    "words": 943,
+    "duration": 539.951,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.981,
+      "maxRun": 12,
+      "from": {
+        "scribe": 917,
+        "forced": 8,
+        "none": 18
+      }
+    }
+  },
+  {
+    "id": "7935384",
+    "title": "Learn to Have Better Balance and Prevent Falls as You Age",
+    "words": 689,
+    "duration": 339.566,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.991,
+      "maxRun": 2,
+      "from": {
+        "scribe": 640,
+        "forced": 43,
+        "none": 6
+      }
+    }
+  },
+  {
+    "id": "7935103",
+    "title": "No Soil Needed to Grow Air Plants at Home",
+    "words": 666,
+    "duration": 370.181,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.955,
+      "maxRun": 14,
+      "from": {
+        "scribe": 613,
+        "forced": 23,
+        "none": 30
+      }
+    }
+  },
+  {
+    "id": "7940481",
+    "title": "Two New Private Spacecraft Launch to the Moon",
+    "words": 752,
+    "duration": 448.261,
+    "method": "merged",
+    "summary": {
+      "coverage": 0.947,
+      "maxRun": 21,
+      "from": {
+        "scribe": 697,
+        "forced": 15,
+        "none": 40
+      }
+    }
+  }
 ]

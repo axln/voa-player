@@ -362,6 +362,19 @@
 				"ru": ["будучи"],
 				"note": "форма глагола «to be» (быть)"
 			}
+		],
+		"become": [
+			{
+				"pos": "verb",
+				"ru": ["стать", "становиться"]
+			}
+		],
+		"became": [
+			{
+				"pos": "verb",
+				"ru": ["стал", "стала", "стали"],
+				"note": "прошедшее время от «to become» (стать)"
+			}
 		]
 	},
 	"lemmas": {
@@ -449,6 +462,28 @@
 		"humor": "humour",
 		"rumor": "rumour",
 		"gray": "grey",
-		"defense": "defence"
+		"defense": "defence",
+		"became": "become",
+		"grew": "grow",
+		"grown": "grow",
+		"shown": "show",
+		"drew": "draw",
+		"drawn": "draw",
+		"getting": "get",
+		"dropped": "drop",
+		"dropping": "drop",
+		"larger": "large",
+		"longer": "long",
+		"older": "old",
+		"latest": "late",
+		"tallest": "tall",
+		"controlled": "control",
+		"controlling": "control",
+		"kilometers": "kilometre",
+		"kilometer": "kilometre",
+		"centimeters": "centimetre",
+		"centimeter": "centimetre",
+		"findings": "finding",
+		"bred": "breed"
 	}
 }

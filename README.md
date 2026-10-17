@@ -11,7 +11,7 @@ The `static/data/` folder holds the sample episodes, with audio and transcripts 
 | Batch                   | Episodes | Source                                               | Date         |
 | ----------------------- | -------- | ---------------------------------------------------- | ------------ |
 | `special-english-2011`  | 10       | manythings.org mirror of VOA Special English reports | Sept 2011    |
-| `learning-english-2025` | 37       | learningenglish.voanews.com                          | Jan–Mar 2025 |
+| `learning-english-2025` | 137      | learningenglish.voanews.com                          | Jan–Mar 2025 |
 
 Layout:
 

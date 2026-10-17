@@ -1,0 +1,111 @@
+Important Terms and Ideas for Describing Artificial Intelligence
+
+There are several terms experts use to describe computer systems in the field of artificial intelligence.
+
+Recently, the French News Agency (AFP) defined some of the common terms and ideas used in that field.
+
+Here is a version for English learners:
+
+Artificial intelligence
+
+The first term is “artificial intelligence.”
+
+When asked what artificial intelligence is, the AI-powered ChatGPT system says that the term means “the simulation of human intelligence in machines that are programmed to think, learn and make decisions".
+
+AI's main quality or characteristic is taking in large amounts of data and then processing it using methods from statistics.
+
+AI involves using ideas from many fields including computing, mathematics, languages, psychology, and others.
+
+Currently, the technology is being used heavily for investigating health issues, translating human languages, and predicting problems in machine tools and self-driving cars. But AI is affecting many fields of business and industry.
+
+Algorithm
+
+A second important term is “algorithm.”
+
+An algorithm is important to all computer operations. It is a series of steps or instructions followed by a computer program to get a result.
+
+Algorithms can give rules for an AI's behavior, helping it to realize the objectives of computer program developers.
+
+Unlike a simple computer program, AI algorithms permit a computer system to “learn” for itself.
+
+Machine learning
+
+A third important term is “machine learning.”
+
+Machine learning is one method that researchers have used in their efforts to produce artificial intelligence.
+
+Machine learning lets computers learn from data without being directly programmed on what results to produce.
+
+In recent years, the field of neural networks has given important results.
+
+In a neural network, connections between some nodes are strengthened and others weakened as the system learns and makes changes.
+
+Learning can be "supervised." This means the system learns to put new data into specific groups based on a model. For example, the system could learn to identify spam in an email or other messaging programs.
+
+"Unsupervised" learning permits the system to independently discover new areas or ways of doing things. These discoveries in the available data might not have been immediately clear.
+
+An example would be letting an online store identify buying trends in sales data.
+
+"Reinforcement" learning adds a process of repeated trial-and-error. In this process, the system is rewarded based on its outcomes, causing it to learn and improve.
+
+One example might be a self-driving vehicle whose objective is to reach its destination as quickly as possible but also safely. That requirement would lead it to learn to stop at red lights although it requires additional time.
+
+Deep learning
+
+Deep learning owes its name to its use of many layers of neural networks.
+
+Raw data is examined by each layer in turn at growing levels of abstraction.
+
+Geoffrey Hinton received the 2024 Nobel Prize in Physics. Hinton is credited with developing deep learning. Hinton received the prize along with 1980s neural-network developer John Hopfield.
+
+Francis Bach, head of France's SIERRA statistical learning laboratory, said this about deep learning: "The more layers you have, the more complex behavior can become, and the more complex the behavior can be, the easier it is to learn a desired behavior efficiently."
+
+The method might help lead to scientific discoveries.
+
+Language models
+
+We now turn to large language models (LLMs).
+
+These might be the most popular example of generative AI. Large language models power tools like OpenAI’s ChatGPT or Google’s Gemini.
+
+Such systems are able to write long papers, answer legal questions or even produce a cake recipe based on their statistical models.
+
+But the technology is still new. LLM’s can suffer from "hallucinations"- the creation of content that is false or incorrect.
+
+Artificial general intelligence
+
+A final important term is artificial general intelligence (AGI) - one the big goals of the whole AI field.
+
+AGI suggests the unrealized dream of a machine able to reproduce all human processes of human thinking.
+
+People who push the idea include OpenAI chief Sam Altman and his competitors at Anthropic. They consider such a system to be within reach.
+
+The goal is to use large amounts of data and processing power to train LLMs that are increasingly powerful.
+
+But critics say that LLM technology has important limits, including its ability to reason.
+
+Maxime Amblard, computing professor at France's University of Lorraine, told AFP last year, "LLMs do not work like human beings."
+
+Amblard added that humans, as flesh-and-blood -intelligent beings, are "sense-making machines" with different abilities from today's computer systems.
+
+I’m Anna Matteo. And I’m John Russell.
+
+Pierre Celerier reported on this story for Agence France-Presse. John Russell adapted it for VOA Learning
+
+_____________________________________________________
+
+simulation – n. the representation of the functioning of one system or process by means of the functioning of another system
+
+statistics –n. pl. (science) the field of processing numerical information to describe processes and things
+
+neural –adj. related to the brain or nerves
+
+node – n. a point at which smaller parts begin or center
+
+spam – n. unsolicited messages (such as an email) that often have a commercial purpose
+
+trend – n. a line or direction of movement or change
+
+abstraction –n. the formation of ideas
+
+efficiently – adv. with success, competence, or a suitable effect

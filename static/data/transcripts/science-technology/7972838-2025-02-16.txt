@@ -1,0 +1,59 @@
+European Telescope Discovers ‘Einstein Ring’ in Nearby Galaxy
+
+Scientists say Europe’s Euclid space telescope has discovered a bright ring of light circling a nearby galaxy. The observed light is known as an Einstein ring.
+
+Researchers have estimated the ring encircles a galaxy 590 million light years away from Earth. A light year is the distance light travels in a year – about 9.5 trillion kilometers.
+
+Astronomers have long known about the galaxy where the ring was discovered. So, they were surprised that the bright ring had not been identified before.
+
+It was discovered in a well-studied galaxy called NGC 6505. It is in the constellation – a group of stars – named Draco.
+
+Einstein rings are rare. They form when light from a more distant galaxy bends around a closer galaxy. The nearer galaxy appears to have a circle of light, or a halo, around it.
+
+The Einstein ring gets its name from physicist Albert Einstein. Einstein predicted that light would bend around extremely massive objects in space. This is called “gravitational lensing.”
+
+The American space agency NASA explains that as light passes through a gravitational lens, “it may take different paths, producing multiple images of the same object.” In this way, gravity itself acts as a lens, magnifying and distorting space and time in a way that is similar to an optical lens like those in eyeglasses or contact lenses.
+
+Gravitational lenses permit telescopes like Euclid to observe more distant and less-bright objects. In the latest project, researchers from Germany’s Max Planck Institute for Astrophysics used data from Euclid to create a computer model to discover the Einstein ring.
+
+The Euclid space telescope is operated by the European Space Agency (ESA). In 2023, it launched on a six-year mission that ESA officials have said aims to study the mysteries of dark matter and dark energy across the universe.
+
+Astronomers at the Max Planck Institute are leading the research. In a statement, the organization said the first sign that the Einstein ring existed came during testing right after Euclid was deployed. A team member, Bruno Altieri, was looking over early data collected by Euclid.
+
+“Even from that first observation, I could see it,” Altieri said in a statement. “But after Euclid made more observations of the area, we could see a perfect Einstein ring. For me, with a lifelong interest in gravitational lensing, that was amazing.”
+
+The scientists said the more distant galaxy involved in the method is about 4.4 billion light years away from Earth. They noted that the more distant galaxy had never been observed before and does not have a name.
+
+Altieri’s team recently reported the findings in a study in the publication Astronomy and Astrophysics.
+
+Conor O’Riordan is another team member from the Max Planck Institute and was the lead writer of the study. He said, “All strong lenses are special, because they're so rare, and they're incredibly useful scientifically. This one is particularly special, because it’s so close to Earth and the alignment makes it very beautiful.”
+
+O’Riordan added that the researchers used the latest gravitational lensing methods developed at the institute. This permitted them to model the light of the ring. “We even had to look at some of the raw data to better understand how the detector works.”
+
+O’Riordan said the team’s modeling operations were just the first step in studying the newly discovered Einstein ring. He said the group plans to use the ring to also study “dark matter substructures” within the lensing galaxy.
+
+O’Riordan predicted, “Euclid is going to revolutionize the field, with all this data we've never had before.”
+
+I’m Bryan Lynn.
+
+Bryan Lynn wrote this story for VOA Learning English, based on reports from The Associated Press, the Max Planck Institute, the European Space Agency and NASA.
+
+___________________________________________________
+
+galaxy – n. a very large group of stars held together in the universe
+
+bend – v. to make something become curved
+
+distort – v. to change the shape, sound or appearance of something
+
+lens – n. a curved piece of glass in cameras, glasses and scientific equipment used or looking at things
+
+magnify – v. to make an object look larger than it is by looking through special equipment
+
+perfect –adj. complete; having no mistakes; completely correct
+
+align – v. to put things in an exact line or make them parallel
+
+raw – n. unprepared or imperfectly prepared for use
+
+detect – v. to identify something, especially something that is difficult to see, hear, smell, etc.
