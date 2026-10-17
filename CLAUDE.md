@@ -4,9 +4,12 @@ A player for VOA Special English audio material. It plays an episode while the o
 
 ## Current status
 
-- Empty repository, not yet under git.
-- Phase 1 (in progress): find about 10 VOA Special English articles with their audio and official transcripts, hosted on the Internet. VOA audio is treated as licensed for free distribution, and many sites host it.
-- Phase 2 (later): build the player. Audio plays, the transcript is displayed, and the current word is highlighted in sync with playback.
+- Repo: `github.com/axln/voa-player` (private), `main` branch. README is project-specific.
+- Scaffold: SvelteKit with TypeScript, Tailwind, ESLint, Prettier, Vitest and Playwright. Uses `adapter-static`, and `src/routes/+layout.ts` prerenders all routes. `npm run build` passes.
+- Phase 1 (done): sample data for 17 episodes across 2011 and 2025 batches. See Data notes.
+- Phase 2 (next): build the player. Audio plays, the transcript is displayed, and the current word is highlighted in sync with playback. Word timing does not exist yet, so decide how to get it (see Data notes).
+- Open: `paths.base` is not set. The site needs it before GitHub Pages serves it from `/voa-player/`.
+- The template's `svelte.config.js` is absent. The adapter is set in `vite.config.ts`, and the build works with that.
 
 ## Data notes
 

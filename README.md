@@ -1,54 +1,62 @@
-# sv
+# VOA Player
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A web player for [VOA Special English](https://learningenglish.voanews.com/) audio. It plays an episode while showing its transcript, and highlights each word as it is spoken, karaoke style.
 
-## Creating a project
+> **Status:** early. The sample data is collected and the project is scaffolded, but the player itself is not built yet.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Sample data
 
-```sh
-# create a new project
-npx sv create my-app
+The `data/` folder holds the sample episodes, with audio and transcripts for each.
+
+| Batch | Episodes | Source | Date |
+|---|---|---|---|
+| `special-english-2011` | 10 | manythings.org mirror of VOA Special English reports | Sept 2011 |
+| `learning-english-2025` | 7 | learningenglish.voanews.com | Feb–Mar 2025 |
+
+Layout:
+
+```
+data/
+├── episodes.json                  # manifest: one entry per episode
+├── audio/<section>/<id>-<date>.mp3
+└── transcripts/<section>/<id>-<date>.txt
 ```
 
-To recreate this project with the same configuration:
+`episodes.json` records each episode's batch, section, title, date, and the source URLs for its audio and transcript. Check the sources before reusing the material.
+
+## Development
+
+Install dependencies, then start the dev server:
 
 ```sh
-# recreate this project
-npx sv@1.1.1 create --template minimal --types ts --add prettier eslint playwright="demo:no" vitest="usages:unit,component" tailwindcss="plugins:none" sveltekit-adapter="adapter:static" --install yarn voa-player
+yarn install
+yarn dev
 ```
 
-## Adding features
+Other scripts:
 
-Add features to your project with `sv add`:
+| Command | What it does |
+|---|---|
+| `yarn build` | Build the static site into `build/` |
+| `yarn preview` | Serve the production build locally |
+| `yarn check` | Type-check the project with `svelte-check` |
+| `yarn lint` | Run Prettier and ESLint |
+| `yarn test:unit` | Run unit tests with Vitest |
+| `yarn test:e2e` | Run end-to-end tests with Playwright |
 
-```sh
-npx sv add
-```
+## Stack
 
-For example, to add Tailwind CSS:
+- [SvelteKit](https://svelte.dev/docs/kit) with the static adapter, so the whole site is prerendered
+- Tailwind CSS
+- TypeScript, ESLint, Prettier
+- Vitest (unit) and Playwright (end-to-end)
 
-```sh
-npx sv add tailwindcss
-```
+## Deployment
 
-## Developing
+The audio is committed to this repo and served by GitHub Pages, so keep individual files under GitHub's 100 MB limit and the whole site under 1 GB.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Before the first deploy, the Vite/SvelteKit config needs a `paths.base` value if the site is served from a project URL such as `https://<user>.github.io/voa-player/`.
 
-```sh
-npm run dev
+## Licensing
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+VOA's Special English material is produced by the Voice of America, a US government broadcaster. Per the manythings.org mirror, that material is public domain. Verify the current terms on the VOA site before redistributing it.
