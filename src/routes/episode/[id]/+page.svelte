@@ -16,8 +16,12 @@
 	<title>{title} · VOA Player</title>
 </svelte:head>
 
-<header class="hero">
+<!-- sticky bar: stays at the top while the transcript scrolls -->
+<nav class="backbar" aria-label="Episode navigation">
 	<a class="back" href={resolve('/')}>← All stories</a>
+</nav>
+
+<header class="hero">
 	<span class="chip {chipClass(data.episode.section)}">{sectionLabel(data.episode.section)}</span>
 	<h1><DictWords text={title} /></h1>
 	<p class="meta">
@@ -42,13 +46,25 @@
 {/key}
 
 <style>
+	.backbar {
+		position: sticky;
+		top: 0;
+		z-index: 12;
+		padding: 0.7rem 1.25rem;
+		background: rgba(250, 246, 239, 0.92);
+		backdrop-filter: blur(6px);
+		border-bottom: 1px solid transparent;
+		transition: border-color 160ms ease;
+	}
 	.hero {
 		max-width: 46rem;
 		margin: 0 auto;
-		padding: 2.5rem 1.25rem 1.5rem;
+		padding: 1.5rem 1.25rem 1.5rem;
 	}
 	.back {
 		display: block;
+		max-width: 46rem;
+		margin: 0 auto;
 		font-family: system-ui, sans-serif;
 		font-size: 0.9rem;
 		color: #78716c;
