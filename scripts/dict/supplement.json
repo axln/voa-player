@@ -431,6 +431,24 @@
 		"easier": "easy",
 		"easiest": "easy",
 		"earlier": "early",
-		"earliest": "early"
+		"earliest": "early",
+		"favorite": "favourite",
+		"favorites": "favourite",
+		"color": "colour",
+		"colors": "colour",
+		"colored": "coloured",
+		"flavor": "flavour",
+		"flavors": "flavour",
+		"honor": "honour",
+		"behavior": "behaviour",
+		"center": "centre",
+		"theater": "theatre",
+		"neighbor": "neighbour",
+		"neighbors": "neighbour",
+		"labor": "labour",
+		"humor": "humour",
+		"rumor": "rumour",
+		"gray": "grey",
+		"defense": "defence"
 	}
 }

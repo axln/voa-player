@@ -1,0 +1,69 @@
+Students with Disabilities Praise Assistive Technology Using AI
+
+Assistive technology involves special equipment and computer software that is meant to help people with disabilities.
+
+The latest assistive technology is being powered by artificial intelligence (AI), which might help many students who have difficulties with speaking, reading, writing, and working with language. Although many schools are struggling with how and where to use AI, some are welcoming AI applications for students with disabilities.
+
+The U.S. Education Department requires schools to provide assistive technology to students with disabilities under the Individuals with Disabilities Education Act, a U.S. federal law.
+
+The Education Department has told school officials they must consider whether students need tools like text-to-speech and alternative communication devices. New rules from the Department of Justice also require schools and other government organizations to make apps and online content available to people with disabilities.
+
+Concerns about assistive technology
+
+However, there is concern about how to make sure that students using assistive technology are still learning.
+
+Students can use AI to organize thoughts into an outline, summarize complex reading material, or even translate the works of William Shakespeare into today’s English. A computer can read materials aloud for students who have vision and reading problems. More and more, those voices produced by machine sound closer to human voices.
+
+Alexis Reid is an educational therapist in the Boston area who works with students with learning disabilities. Reid said, "I'm seeing that a lot of students are kind of exploring on their own, almost feeling like they've found a cheat code in a video game."
+
+But Reid said it is far from cheating: "We're meeting students where they are."
+
+Ben Snyder is a 14-year-old freshman from Larchmont, New York, who was recently told he has a learning disability. He has been increasingly using AI to help with homework. He sometimes uses AI to explain math problems.
+
+He likes a program called Question AI. One day, he asked the program to help him write an outline for a book report. He finished the work in 15 minutes. Usually, it would have taken him an hour and a half to create the same outline. But he said he would not use AI to write the report. "That's just cheating," Ben said.
+
+Paul Sanft is director of a Minnesota-based center where families can use assistive technology tools and borrow devices. He knows some people will use the technology to do the work they should be doing by themselves. “That's always going to happen," Sanft said. "But I don't think that's the biggest concern with people with disabilities, who are just trying to do something that they couldn't do before."
+
+The U.S. National Science Foundation is providing financial support for AI research and development. One group receiving support is called the National AI Institute for Exceptional Education and is linked to the University of Buffalo in New York state. It is developing tools to help children with speech and language disabilities.
+
+Venu Govindaraju is the director of the institute. He said speech-to-text technology is not as good at understanding children's voices, particularly if there is a speech problem. He said AI technology is not good at understanding children’s handwriting either.
+
+The case of Makenzie Gilkison
+
+Makenzie Gilkison had trouble spelling words. The 14-year-old from near Indianapolis, Indiana, has a condition called dyslexia. It makes reading difficult. "I just assumed I was stupid," she said, thinking of her early grade school years.
+
+Last year, Gilkison was named to the National Junior Honor Society, an organization that supports leadership and academic success among middle school students. She said she improved her school performance by using a special AI-powered chatbot, a word prediction program and other tools that read for her.
+
+"I would have just probably given up if I didn't have them," she said.
+
+In September, Makenzie's school system started using chatbots to help special education students in high school. She said teachers sometimes struggled to provide students with the help they needed. The students were happy when they heard about the program. Until recently, students needed to wait for someone to help them, unable to move ahead on their own.
+
+"Now we don't need to wait anymore," she said.
+
+I'm Mario Ritter, Jr.
+
+And I’m Jill Robbins.
+
+Heather Hollingsworth reported this story for the Associated Press. Jill Robbins adapted it for Learning English.
+
+______________________________________________
+
+application – n. a computer program that does a series of linked tasks
+
+content – n. materials such as writing, sound and video
+
+summarize – v. to make a shorter version of a piece of writing that includes important points
+
+translate – v. to change a piece of writing from one language into another
+
+therapist –n. a person who treats others using methods that do not include drugs or medical operations
+
+cheat code –n. a series of commands that can change the way a computer game operates
+
+dyslexia – n. a condition in the brain that makes it hard for a person to read, write, and spell
+
+assume – v. to think that something is true or probably true without knowing that it is true
+
+alternative – adj. not usual or traditional
+
+chatbot –n. a computer program designed to produce writing or speech that is similar to that of a human

@@ -2,7 +2,7 @@
 
 A web player for [VOA Special English](https://learningenglish.voanews.com/) audio. It plays an episode while showing its transcript, and highlights each word as it is spoken, karaoke style.
 
-> **Status:** the player works locally and is pushed to GitHub. It is not deployed yet.
+> **Status:** the player works. It is published with GitHub Pages from `main` (https://axln.github.io/voa-player/).
 
 ## Sample data
 
@@ -11,7 +11,7 @@ The `static/data/` folder holds the sample episodes, with audio and transcripts 
 | Batch                   | Episodes | Source                                               | Date         |
 | ----------------------- | -------- | ---------------------------------------------------- | ------------ |
 | `special-english-2011`  | 10       | manythings.org mirror of VOA Special English reports | Sept 2011    |
-| `learning-english-2025` | 7        | learningenglish.voanews.com                          | Feb–Mar 2025 |
+| `learning-english-2025` | 37       | learningenglish.voanews.com                          | Jan–Mar 2025 |
 
 Layout:
 

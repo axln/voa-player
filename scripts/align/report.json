@@ -160,55 +160,423 @@
 		}
 	},
 	{
-		"id": "8001173",
-		"title": "How Daylight Saving Time Affects Health",
-		"words": 676,
-		"duration": 431.308,
+		"id": 8001341,
+		"title": "A Short History of Spacecraft Landings on the Moon",
+		"words": 598,
+		"duration": 332.251,
 		"method": "merged",
 		"summary": {
-			"coverage": 0.966,
-			"maxRun": 5,
+			"coverage": 0.95,
+			"maxRun": 19,
 			"from": {
-				"scribe": 634,
-				"forced": 19,
-				"none": 23
+				"scribe": 518,
+				"forced": 50,
+				"none": 30
 			}
 		}
 	},
 	{
-		"id": "8005741",
-		"title": "Total Lunar Eclipse to Turn Moon Red",
-		"words": 446,
-		"duration": 276.924,
+		"id": 2688277,
+		"title": "Green Means Spring and Other Things",
+		"words": 514,
+		"duration": 314.175,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.967,
+			"maxRun": 9,
+			"from": {
+				"scribe": 493,
+				"forced": 4,
+				"none": 17
+			}
+		}
+	},
+	{
+		"id": 7997203,
+		"title": "Researchers: South Korea’s Birth Rate Increase Last Year Unclear",
+		"words": 480,
+		"duration": 275.592,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.967,
+			"maxRun": 2,
+			"from": {
+				"scribe": 456,
+				"forced": 8,
+				"none": 16
+			}
+		}
+	},
+	{
+		"id": 7989017,
+		"title": "Beach, Coast, Shore",
+		"words": 464,
+		"duration": 282.984,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.985,
+			"maxRun": 3,
+			"from": {
+				"scribe": 452,
+				"forced": 5,
+				"none": 7
+			}
+		}
+	},
+	{
+		"id": 7983372,
+		"title": "New Flowering Plants for Gardeners to Try",
+		"words": 672,
+		"duration": 473.835,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.969,
+			"maxRun": 3,
+			"from": {
+				"scribe": 636,
+				"forced": 15,
+				"none": 21
+			}
+		}
+	},
+	{
+		"id": 6705484,
+		"title": "Describing Your Birthday",
+		"words": 852,
+		"duration": 421.486,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.952,
+			"maxRun": 29,
+			"from": {
+				"scribe": 762,
+				"forced": 49,
+				"none": 41
+			}
+		}
+	},
+	{
+		"id": 7972740,
+		"title": "Mary Kay: A Leader in the Beauty Product Industry",
+		"words": 460,
+		"duration": 272.118,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.991,
+			"maxRun": 2,
+			"from": {
+				"scribe": 434,
+				"forced": 22,
+				"none": 4
+			}
+		}
+	},
+	{
+		"id": 7949154,
+		"title": "Scientists with Disabilities Seek Changes to Improve their Work",
+		"words": 744,
+		"duration": 445.336,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.964,
+			"maxRun": 22,
+			"from": {
+				"scribe": 711,
+				"forced": 6,
+				"none": 27
+			}
+		}
+	},
+	{
+		"id": 7998600,
+		"title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+		"words": 506,
+		"duration": 296.411,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.933,
+			"maxRun": 21,
+			"from": {
+				"scribe": 463,
+				"forced": 9,
+				"none": 34
+			}
+		}
+	},
+	{
+		"id": 7980848,
+		"title": "How to 'Dish Up' Something Good",
+		"words": 391,
+		"duration": 221.388,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.992,
+			"maxRun": 2,
+			"from": {
+				"scribe": 378,
+				"forced": 10,
+				"none": 3
+			}
+		}
+	},
+	{
+		"id": 7983265,
+		"title": "France Sets New Record in Hunt for Nuclear Fusion",
+		"words": 500,
+		"duration": 301.061,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.96,
+			"maxRun": 16,
+			"from": {
+				"scribe": 475,
+				"forced": 5,
+				"none": 20
+			}
+		}
+	},
+	{
+		"id": 7985917,
+		"title": "Appeal",
+		"words": 495,
+		"duration": 298.58,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.994,
+			"maxRun": 3,
+			"from": {
+				"scribe": 492,
+				"forced": 0,
+				"none": 3
+			}
+		}
+	},
+	{
+		"id": 7983385,
+		"title": "New Fruits and Vegetables for Gardeners to Try",
+		"words": 650,
+		"duration": 443.716,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.983,
+			"maxRun": 4,
+			"from": {
+				"scribe": 632,
+				"forced": 7,
+				"none": 11
+			}
+		}
+	},
+	{
+		"id": 3488629,
+		"title": "Academic Writing: Common Sentence Patterns, Part Three",
+		"words": 812,
+		"duration": 484.545,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.953,
+			"maxRun": 27,
+			"from": {
+				"scribe": 706,
+				"forced": 68,
+				"none": 38
+			}
+		}
+	},
+	{
+		"id": 7975366,
+		"title": "The Westminster Kennel Club Dog Show, the ‘Super Bowl’ of Dog Shows",
+		"words": 360,
+		"duration": 199.497,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.972,
+			"maxRun": 2,
+			"from": {
+				"scribe": 317,
+				"forced": 33,
+				"none": 10
+			}
+		}
+	},
+	{
+		"id": 7908673,
+		"title": "Learn New Skills with Microcredentials",
+		"words": 493,
+		"duration": 285.753,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.97,
+			"maxRun": 15,
+			"from": {
+				"scribe": 460,
+				"forced": 18,
+				"none": 15
+			}
+		}
+	},
+	{
+		"id": 7997495,
+		"title": "Study Shows How Earth’s Orbit Affects Ice Ages",
+		"words": 501,
+		"duration": 270.916,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.91,
+			"maxRun": 25,
+			"from": {
+				"scribe": 452,
+				"forced": 4,
+				"none": 45
+			}
+		}
+	},
+	{
+		"id": 7979814,
+		"title": "The Importance of  Being ‘Dialed In’",
+		"words": 403,
+		"duration": 241.293,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.995,
+			"maxRun": 2,
+			"from": {
+				"scribe": 380,
+				"forced": 21,
+				"none": 2
+			}
+		}
+	},
+	{
+		"id": 7980858,
+		"title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+		"words": 420,
+		"duration": 234.292,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.962,
+			"maxRun": 10,
+			"from": {
+				"scribe": 389,
+				"forced": 15,
+				"none": 16
+			}
+		}
+	},
+	{
+		"id": 7980779,
+		"title": "Extend, Expand, etc.",
+		"words": 452,
+		"duration": 283.193,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.989,
+			"maxRun": 3,
+			"from": {
+				"scribe": 443,
+				"forced": 4,
+				"none": 5
+			}
+		}
+	},
+	{
+		"id": 7980912,
+		"title": "How to Reduce Risks of Bad Air Quality",
+		"words": 704,
+		"duration": 421.616,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.957,
+			"maxRun": 8,
+			"from": {
+				"scribe": 644,
+				"forced": 30,
+				"none": 30
+			}
+		}
+	},
+	{
+		"id": 7973482,
+		"title": "Visitors Laugh Away Troubles at the HaHaHouse Museum",
+		"words": 468,
+		"duration": 266.658,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.981,
+			"maxRun": 4,
+			"from": {
+				"scribe": 448,
+				"forced": 11,
+				"none": 9
+			}
+		}
+	},
+	{
+		"id": 7926297,
+		"title": "Students with Disabilities Praise Assistive Technology Using AI",
+		"words": 712,
+		"duration": 405.838,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.965,
+			"maxRun": 3,
+			"from": {
+				"scribe": 676,
+				"forced": 11,
+				"none": 25
+			}
+		}
+	},
+	{
+		"id": 7998765,
+		"title": "Wilbur and Orville Wright: The First Airplane",
+		"words": 479,
+		"duration": 266.58,
 		"method": "merged",
 		"summary": {
 			"coverage": 0.987,
-			"maxRun": 4,
+			"maxRun": 2,
 			"from": {
-				"scribe": 435,
-				"forced": 5,
+				"scribe": 441,
+				"forced": 32,
 				"none": 6
 			}
 		}
 	},
 	{
-		"id": "7990808",
-		"title": "Knitting While Watching Movies Gains Popularity",
-		"words": 457,
-		"duration": 260.049,
+		"id": 7963085,
+		"title": "Don't Miss a Thing With 'Eagle Eyes'",
+		"words": 639,
+		"duration": 350.537,
 		"method": "merged",
 		"summary": {
-			"coverage": 0.972,
-			"maxRun": 3,
+			"coverage": 0.978,
+			"maxRun": 2,
 			"from": {
-				"scribe": 440,
-				"forced": 4,
-				"none": 13
+				"scribe": 599,
+				"forced": 26,
+				"none": 14
 			}
 		}
 	},
 	{
-		"id": "8003108",
+		"id": 7974034,
+		"title": "Yellowstone: The World’s First National Park",
+		"words": 382,
+		"duration": 239.752,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.969,
+			"maxRun": 4,
+			"from": {
+				"scribe": 354,
+				"forced": 16,
+				"none": 12
+			}
+		}
+	},
+	{
+		"id": 8003108,
 		"title": "'Watching the Grass Grow' Is Not Fun",
 		"words": 326,
 		"duration": 199.863,
@@ -224,7 +592,23 @@
 		}
 	},
 	{
-		"id": "8002695",
+		"id": 8005741,
+		"title": "Total Lunar Eclipse to Turn Moon Red",
+		"words": 446,
+		"duration": 276.924,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.987,
+			"maxRun": 4,
+			"from": {
+				"scribe": 435,
+				"forced": 5,
+				"none": 6
+			}
+		}
+	},
+	{
+		"id": 8002695,
 		"title": "Australian Navy Rescues Rower Crossing Pacific from California",
 		"words": 420,
 		"duration": 222.224,
@@ -240,7 +624,7 @@
 		}
 	},
 	{
-		"id": "7995839",
+		"id": 7995839,
 		"title": "Sew and Knit",
 		"words": 379,
 		"duration": 226.142,
@@ -252,6 +636,102 @@
 				"scribe": 377,
 				"forced": 0,
 				"none": 2
+			}
+		}
+	},
+	{
+		"id": 8001173,
+		"title": "How Daylight Saving Time Affects Health",
+		"words": 676,
+		"duration": 431.308,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.966,
+			"maxRun": 5,
+			"from": {
+				"scribe": 634,
+				"forced": 19,
+				"none": 23
+			}
+		}
+	},
+	{
+		"id": 7990808,
+		"title": "Knitting While Watching Movies Gains Popularity",
+		"words": 457,
+		"duration": 260.049,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.972,
+			"maxRun": 3,
+			"from": {
+				"scribe": 440,
+				"forced": 4,
+				"none": 13
+			}
+		}
+	},
+	{
+		"id": 7990107,
+		"title": "New Discovery Could Explain What Gives Mars its Red Color",
+		"words": 499,
+		"duration": 325.956,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.962,
+			"maxRun": 13,
+			"from": {
+				"scribe": 475,
+				"forced": 5,
+				"none": 19
+			}
+		}
+	},
+	{
+		"id": 7990025,
+		"title": "Scientists Discover Stonehenge-like Circle in Denmark",
+		"words": 358,
+		"duration": 196.963,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.994,
+			"maxRun": 2,
+			"from": {
+				"scribe": 330,
+				"forced": 26,
+				"none": 2
+			}
+		}
+	},
+	{
+		"id": 7989321,
+		"title": "The Planets Gather for a Show in the Evening Sky",
+		"words": 310,
+		"duration": 181.473,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.994,
+			"maxRun": 2,
+			"from": {
+				"scribe": 308,
+				"forced": 0,
+				"none": 2
+			}
+		}
+	},
+	{
+		"id": 7987758,
+		"title": "Japan’s Toyota Builds a City-like Center to Test Robotics, AI",
+		"words": 516,
+		"duration": 335.647,
+		"method": "merged",
+		"summary": {
+			"coverage": 0.957,
+			"maxRun": 8,
+			"from": {
+				"scribe": 485,
+				"forced": 9,
+				"none": 22
 			}
 		}
 	},

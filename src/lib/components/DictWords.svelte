@@ -1,8 +1,18 @@
 <script lang="ts">
 	import { lookup, posLabel, type DictGroup } from '../dictionary';
 
-	// Plain text whose words show the dictionary card on hover (used for headlines).
-	let { text }: { text: string } = $props();
+	// Plain text whose words show the dictionary card on hover. `highlight` adds the hover background to words.
+	let { text, highlight = true }: { text: string; highlight?: boolean } = $props();
+
+	// Moves the card to <body>, so an ancestor's transform or overflow cannot offset or clip it.
+	function portal(node: HTMLElement) {
+		document.body.appendChild(node);
+		return {
+			destroy() {
+				node.remove();
+			}
+		};
+	}
 
 	// Odd indices are words, even indices are the text between them.
 	const parts = $derived(text.split(/([\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*)/u));
@@ -34,14 +44,19 @@
 
 {#each parts as part, i (i)}
 	{#if i % 2 === 1}
-		<span class="hw" role="note" onpointerenter={(e) => show(e, part)} onpointerleave={hide}
-			>{part}</span
+		<span
+			class:hl={highlight}
+			class="hw"
+			role="note"
+			onpointerenter={(e) => show(e, part)}
+			onpointerleave={hide}>{part}</span
 		>
 	{:else}{part}{/if}
 {/each}
 
 {#if tip}
 	<div
+		use:portal
 		class="tip"
 		class:below={tip.below}
 		style="left: {Math.min(window.innerWidth - 130, Math.max(130, tip.x))}px; top: {tip.below
@@ -65,7 +80,7 @@
 		border-radius: 0.2em;
 		transition: background-color 160ms ease;
 	}
-	.hw:hover {
+	.hw.hl:hover {
 		background: #fef3c7;
 	}
 	.tip {

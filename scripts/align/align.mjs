@@ -145,11 +145,22 @@ async function call(name, id, makeForm, suffix = '') {
 			? 'https://api.elevenlabs.io/v1/forced-alignment'
 			: 'https://api.elevenlabs.io/v1/speech-to-text';
 	for (let attempt = 1; attempt <= 3; attempt++) {
-		const res = await fetch(url, {
-			method: 'POST',
-			headers: { 'xi-api-key': key },
-			body: makeForm()
-		});
+		let res;
+		try {
+			res = await fetch(url, {
+				method: 'POST',
+				headers: { 'xi-api-key': key },
+				body: makeForm()
+			});
+		} catch (err) {
+			// network error (e.g. a dropped upload): retry
+			if (attempt === 3)
+				throw new Error(`${name} ${id}: network error ${err.cause?.code ?? err.message}`, {
+					cause: err
+				});
+			await new Promise((r) => setTimeout(r, 2000 * attempt));
+			continue;
+		}
 		if (res.ok) {
 			const json = await res.json();
 			fs.writeFileSync(cacheFile, JSON.stringify(json));
