@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import { episodes, sectionLabel } from '../lib/episodes';
 	import { chipClass } from '../lib/colors';
+	import DictWords from '../lib/components/DictWords.svelte';
 
 	const sections = [...new Set(episodes.map((e) => e.section))];
 	let filter = $state<string | null>(null);
@@ -45,7 +46,7 @@
 		<li>
 			<a class="card" href={resolve('/episode/[id]', { id: String(e.id) })}>
 				<span class="chip {chipClass(e.section)}">{sectionLabel(e.section)}</span>
-				<h2>{e.title}</h2>
+				<h2><DictWords text={e.title} /></h2>
 				<p class="meta">
 					{new Date(e.date + 'T12:00:00').toLocaleDateString('en-US', {
 						month: 'short',

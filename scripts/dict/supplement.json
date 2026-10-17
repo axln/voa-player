@@ -1,0 +1,436 @@
+{
+	"_about": "Hand-written entries for very common English words that FreeDict lacks or gives unhelpful senses for. They override FreeDict. Written for this project (licensed with the output, CC BY-SA 3.0).",
+	"words": {
+		"is": [
+			{
+				"pos": "verb",
+				"ru": ["есть", "является"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"am": [
+			{
+				"pos": "verb",
+				"ru": ["есть", "являюсь"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"are": [
+			{
+				"pos": "verb",
+				"ru": ["есть", "являются"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"was": [
+			{
+				"pos": "verb",
+				"ru": ["был", "была", "было"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"were": [
+			{
+				"pos": "verb",
+				"ru": ["были"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"a": [
+			{
+				"pos": "article",
+				"ru": ["неопределенный артикль"]
+			}
+		],
+		"an": [
+			{
+				"pos": "article",
+				"ru": ["неопределенный артикль"]
+			}
+		],
+		"the": [
+			{
+				"pos": "article",
+				"ru": ["определенный артикль"]
+			}
+		],
+		"i": [
+			{
+				"pos": "pronoun",
+				"ru": ["я"]
+			}
+		],
+		"me": [
+			{
+				"pos": "pronoun",
+				"ru": ["меня", "мне"]
+			}
+		],
+		"my": [
+			{
+				"pos": "determiner",
+				"ru": ["мой", "моя", "моё"]
+			}
+		],
+		"it": [
+			{
+				"pos": "pronoun",
+				"ru": ["он", "она", "оно", "это"]
+			}
+		],
+		"this": [
+			{
+				"pos": "determiner",
+				"ru": ["этот", "эта", "это"]
+			}
+		],
+		"that": [
+			{
+				"pos": "determiner",
+				"ru": ["тот", "та", "то"]
+			}
+		],
+		"do": [
+			{
+				"pos": "verb",
+				"ru": ["делать"]
+			}
+		],
+		"does": [
+			{
+				"pos": "verb",
+				"ru": ["делает"]
+			}
+		],
+		"did": [
+			{
+				"pos": "verb",
+				"ru": ["делал"]
+			}
+		],
+		"have": [
+			{
+				"pos": "verb",
+				"ru": ["иметь"]
+			}
+		],
+		"has": [
+			{
+				"pos": "verb",
+				"ru": ["имеет"]
+			}
+		],
+		"had": [
+			{
+				"pos": "verb",
+				"ru": ["имел", "имела", "имело"]
+			}
+		],
+		"not": [
+			{
+				"pos": "adverb",
+				"ru": ["не", "нет"]
+			}
+		],
+		"no": [
+			{
+				"pos": "interj",
+				"ru": ["нет"]
+			}
+		],
+		"yes": [
+			{
+				"pos": "interj",
+				"ru": ["да"]
+			}
+		],
+		"and": [
+			{
+				"pos": "conj",
+				"ru": ["и", "а"]
+			}
+		],
+		"or": [
+			{
+				"pos": "conj",
+				"ru": ["или"]
+			}
+		],
+		"but": [
+			{
+				"pos": "conj",
+				"ru": ["но", "а"]
+			}
+		],
+		"there": [
+			{
+				"pos": "adverb",
+				"ru": ["там"]
+			}
+		],
+		"can": [
+			{
+				"pos": "aux",
+				"ru": ["мочь", "уметь"]
+			}
+		],
+		"will": [
+			{
+				"pos": "aux",
+				"ru": ["(будущее время)"]
+			}
+		],
+		"would": [
+			{
+				"pos": "aux",
+				"ru": ["(условное наклонение)"]
+			}
+		],
+		"what": [
+			{
+				"pos": "pronoun",
+				"ru": ["что", "какой"]
+			}
+		],
+		"who": [
+			{
+				"pos": "pronoun",
+				"ru": ["кто"]
+			}
+		],
+		"where": [
+			{
+				"pos": "adverb",
+				"ru": ["где", "куда"]
+			}
+		],
+		"when": [
+			{
+				"pos": "adverb",
+				"ru": ["когда"]
+			}
+		],
+		"why": [
+			{
+				"pos": "adverb",
+				"ru": ["почему"]
+			}
+		],
+		"how": [
+			{
+				"pos": "adverb",
+				"ru": ["как"]
+			}
+		],
+		"to": [
+			{
+				"pos": "preposition",
+				"ru": ["к", "в", "на"]
+			}
+		],
+		"could": [
+			{
+				"pos": "aux",
+				"ru": ["мог", "могла", "могло"]
+			}
+		],
+		"i'm": [
+			{
+				"pos": "verb",
+				"ru": ["я есть", "я являюсь"]
+			}
+		],
+		"i've": [
+			{
+				"pos": "verb",
+				"ru": ["я имею"]
+			}
+		],
+		"i'll": [
+			{
+				"pos": "aux",
+				"ru": ["я буду"]
+			}
+		],
+		"it's": [
+			{
+				"pos": "verb",
+				"ru": ["это есть", "это является"]
+			}
+		],
+		"don't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"didn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"doesn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"isn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"aren't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"wasn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"weren't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"won't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"can't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"hasn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"haven't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"couldn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"wouldn't": [
+			{
+				"pos": "aux",
+				"ru": ["не (отрицание)"]
+			}
+		],
+		"voa": [
+			{
+				"pos": "abbreviation",
+				"ru": ["Голос Америки (Voice of America)"]
+			}
+		],
+		"be": [
+			{
+				"pos": "verb",
+				"ru": ["быть"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"been": [
+			{
+				"pos": "verb",
+				"ru": ["бывший"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		],
+		"being": [
+			{
+				"pos": "verb",
+				"ru": ["будучи"],
+				"note": "форма глагола «to be» (быть)"
+			}
+		]
+	},
+	"lemmas": {
+		"made": "make",
+		"wrote": "write",
+		"told": "tell",
+		"spent": "spend",
+		"ate": "eat",
+		"been": "be",
+		"seen": "see",
+		"went": "go",
+		"gone": "go",
+		"took": "take",
+		"taken": "take",
+		"came": "come",
+		"got": "get",
+		"gave": "give",
+		"given": "give",
+		"knew": "know",
+		"known": "know",
+		"thought": "think",
+		"felt": "feel",
+		"found": "find",
+		"kept": "keep",
+		"left": "leave",
+		"began": "begin",
+		"begun": "begin",
+		"ran": "run",
+		"sat": "sit",
+		"stood": "stand",
+		"brought": "bring",
+		"bought": "buy",
+		"caught": "catch",
+		"taught": "teach",
+		"built": "build",
+		"sent": "send",
+		"won": "win",
+		"held": "hold",
+		"led": "lead",
+		"met": "meet",
+		"paid": "pay",
+		"said": "say",
+		"saw": "see",
+		"heard": "hear",
+		"understood": "understand",
+		"children": "child",
+		"women": "woman",
+		"men": "man",
+		"feet": "foot",
+		"teeth": "tooth",
+		"people": "person",
+		"mice": "mouse",
+		"higher": "high",
+		"highest": "high",
+		"biggest": "big",
+		"largest": "large",
+		"thicker": "thick",
+		"better": "good",
+		"best": "good",
+		"worse": "bad",
+		"worst": "bad",
+		"smaller": "small",
+		"smallest": "small",
+		"bigger": "big",
+		"faster": "fast",
+		"fastest": "fast",
+		"easier": "easy",
+		"easiest": "easy",
+		"earlier": "early",
+		"earliest": "early"
+	}
+}

@@ -15,7 +15,8 @@
 		"test:e2e": "playwright install && playwright test",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
 		"test:unit": "vitest",
-		"align": "node --env-file=.env scripts/align/align.mjs"
+		"align": "node --env-file=.env scripts/align/align.mjs",
+		"dict": "node scripts/dict/build.mjs"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",

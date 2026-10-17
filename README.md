@@ -2,7 +2,7 @@
 
 A web player for [VOA Special English](https://learningenglish.voanews.com/) audio. It plays an episode while showing its transcript, and highlights each word as it is spoken, karaoke style.
 
-> **Status:** the player works. It is pushed to GitHub but not deployed yet.
+> **Status:** the player works locally and is pushed to GitHub. It is not deployed yet.
 
 ## Sample data
 
@@ -25,7 +25,9 @@ static/data/
 
 Word timings are optional. `timings/<id>.json` holds a start and an end time for each word. The player highlights a word only between its start and end. Without the file, the player estimates timings from word lengths, so the highlight is approximate.
 
-Timings come from ElevenLabs forced alignment, run by `yarn align`. Create `.env` with `ELEVENLABS_API_KEY=...` first. The script caches API responses in `scripts/align/.cache/`, so reruns don't call the API again.
+The vocabulary list and the credit lines after the sign-off, and speaker labels such as `DAVID MWANGI:`, are printed rather than spoken. They are shown muted and never timed.
+
+Timings come from ElevenLabs. `yarn align` runs Scribe v2 (word timestamps) and forced alignment, and merges them: Scribe is primary, and forced alignment fills only the words Scribe did not match. Create `.env` with `ELEVENLABS_API_KEY=...` first. The script caches API responses in `scripts/align/.cache/`, so reruns don't call the API again.
 
 `episodes.json` records each episode's batch, section, title, date, and the source URLs for its audio and transcript. Check the sources before reusing the material.
 
@@ -49,6 +51,7 @@ Other scripts:
 | `yarn test:unit` | Run unit tests with Vitest                 |
 | `yarn test:e2e`  | Run end-to-end tests with Playwright       |
 | `yarn align`     | Regenerate word timings (needs `.env`)     |
+| `yarn dict`      | Rebuild the word dictionary from FreeDict  |
 
 ## Stack
 
@@ -64,6 +67,12 @@ The audio is committed to this repo and served by GitHub Pages, so keep individu
 
 Before the first deploy, set `paths.base` to `/voa-player` if the site is served from a project URL such as `https://<user>.github.io/voa-player/`. The app uses `resolve()` and `asset()` for links and files, so it works with a base path.
 
+## Dictionary
+
+Hovering a word in the player or in an episode title shows its short English → Russian entry, with the part of speech in Russian abbreviations. The entries come from the [FreeDict English–Russian dictionary](https://freedict.org/) (CC BY-SA 3.0). `yarn dict` builds `static/data/dictionary.json` for the words in the transcripts. The file keeps the license and attribution in its `source` field.
+
 ## Licensing
 
 VOA's Special English material is produced by the Voice of America, a US government broadcaster. Per the manythings.org mirror, that material is public domain. Verify the current terms on the VOA site before redistributing it.
+
+`static/data/dictionary.json` is derived from FreeDict eng-rus and is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Share-alike applies to that file.

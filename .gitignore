@@ -26,3 +26,6 @@ test-results
 
 # ElevenLabs alignment API cache (raw responses)
 scripts/align/.cache/
+
+# FreeDict source archive used to build the dictionary
+scripts/dict/.cache/

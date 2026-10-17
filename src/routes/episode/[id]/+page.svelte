@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import Player from '../../../lib/components/Player.svelte';
+	import DictWords from '../../../lib/components/DictWords.svelte';
 	import { parseTranscript } from '../../../lib/align';
 	import { sectionLabel, staticUrl } from '../../../lib/episodes';
 	import { chipClass } from '../../../lib/colors';
@@ -18,7 +19,7 @@
 <header class="hero">
 	<a class="back" href={resolve('/')}>← All stories</a>
 	<span class="chip {chipClass(data.episode.section)}">{sectionLabel(data.episode.section)}</span>
-	<h1>{title}</h1>
+	<h1><DictWords text={title} /></h1>
 	<p class="meta">
 		{new Date(data.episode.date + 'T12:00:00').toLocaleDateString('en-US', {
 			year: 'numeric',

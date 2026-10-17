@@ -38,3 +38,23 @@ test('findWordIndex with ends only highlights inside a word', () => {
 	expect(findWordIndex(starts, 5.2, ends)).toBe(2);
 	expect(findWordIndex(starts, 6, ends)).toBe(-1); // after the last word
 });
+
+test('trailing credits and vocabulary are not narrated, the sign-off is', async () => {
+	const { spokenParagraphs } = await import('./align');
+	const text = [
+		'Story text here.',
+		'I’m Anna Matteo.',
+		'Kiyoko Metzler reported this story for AFP from Vienna. Anna Matteo adapted it for VOA Learning English.',
+		'cozy –adj. a feeling of ease and warmth'
+	].join('\n\n');
+	expect(spokenParagraphs(text)).toEqual(['Story text here.', 'I’m Anna Matteo.']);
+});
+
+test('speaker labels are printed, not spoken, and are left out of the aligned text', async () => {
+	const { parseTranscript, spokenParagraphs } = await import('./align');
+	const text = 'CASSENDRA WALLER: “When you get a job, how do you pay?”\n\nIt is a story.';
+	const { paragraphs, weights } = parseTranscript(text);
+	expect(paragraphs[0][0]).toEqual({ text: 'CASSENDRA WALLER: ', word: -1 });
+	expect(weights.length).toBe(9 + 4); // 'When you get a job, how do you pay?' has 9 words, 'It is a story.' has 4
+	expect(spokenParagraphs(text)[0].startsWith('“When')).toBe(true);
+});

@@ -5,7 +5,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { parseTranscript } from '../../src/lib/align.ts';
+import { createHash } from 'node:crypto';
+import { parseTranscript, spokenParagraphs } from '../../src/lib/align.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
 const STATIC = path.join(ROOT, 'static');
@@ -136,8 +137,8 @@ function audioDuration(file) {
 
 // ---------- API ----------
 
-async function call(name, id, makeForm) {
-	const cacheFile = path.join(CACHE, `${id}.${name}.json`);
+async function call(name, id, makeForm, suffix = '') {
+	const cacheFile = path.join(CACHE, `${id}.${name}${suffix ? `.${suffix}` : ''}.json`);
 	if (!force && fs.existsSync(cacheFile)) return JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
 	const url =
 		name === 'forced'
@@ -175,6 +176,46 @@ function scoreOf(anchors, duration) {
 	return { coverage, maxRun, lastAnchor, tailShort, score };
 }
 
+// Merge the two services. Scribe is primary: it transcribes what is actually spoken, so its word times are
+// the audio evidence. Forced alignment only fills words Scribe did not match, and only where its time lies
+// between the nearest Scribe-timed words, so a bad forced time cannot pull a word out of place.
+function mergeAnchors(scribe, forced, duration) {
+	const anchors = scribe.anchors.slice();
+	const anchorEnds = scribe.anchorEnds.slice();
+	const from = { scribe: 0, forced: 0, none: 0 };
+	const n = anchors.length;
+	// nearest Scribe-timed word before and after each index
+	const before = new Array(n);
+	const after = new Array(n);
+	let last = null;
+	for (let i = 0; i < n; i++) {
+		before[i] = last;
+		if (anchors[i] !== null) last = anchors[i];
+	}
+	let next = duration ?? null;
+	for (let i = n - 1; i >= 0; i--) {
+		after[i] = next;
+		if (anchors[i] !== null) next = anchors[i];
+	}
+	for (let i = 0; i < n; i++) {
+		if (anchors[i] !== null) {
+			from.scribe++;
+			continue;
+		}
+		const fa = forced.anchors[i];
+		const lo = before[i] ?? 0;
+		const hi = after[i] ?? Infinity;
+		if (fa !== null && fa >= lo && fa <= hi) {
+			anchors[i] = fa;
+			anchorEnds[i] = forced.anchorEnds[i];
+			from.forced++;
+		} else {
+			from.none++;
+		}
+	}
+	return { anchors, anchorEnds, from };
+}
+
 async function processEpisode(ep) {
 	const txt = fs.readFileSync(path.join(STATIC, ep.transcript_file), 'utf8');
 	const body = txt.replace(/^[^\n]*\n\n/, ''); // the first line is the title, shown separately in the app
@@ -187,23 +228,29 @@ async function processEpisode(ep) {
 	const letters = oursNorm.map((w) => w.length);
 	const audioFile = path.join(STATIC, ep.audio_file);
 	const duration = audioDuration(audioFile);
-	const apiText = body.replace(/_{3,}/g, '');
+	// Only the narrated text goes to forced alignment; trailing vocabulary notes are not spoken.
+	const apiText = spokenParagraphs(body).join('\n\n');
+	const textKey = createHash('sha1').update(apiText).digest('hex').slice(0, 10);
 
 	const results = {};
 	for (const method of methods) {
-		let anchors;
 		let providerWords;
 		if (method === 'forced') {
-			const json = await call('forced', ep.id, () => {
-				const f = new FormData();
-				f.append(
-					'file',
-					new Blob([fs.readFileSync(audioFile)], { type: 'audio/mpeg' }),
-					path.basename(audioFile)
-				);
-				f.append('text', apiText);
-				return f;
-			});
+			const json = await call(
+				'forced',
+				ep.id,
+				() => {
+					const f = new FormData();
+					f.append(
+						'file',
+						new Blob([fs.readFileSync(audioFile)], { type: 'audio/mpeg' }),
+						path.basename(audioFile)
+					);
+					f.append('text', apiText);
+					return f;
+				},
+				textKey
+			);
 			providerWords = json.words.map((w) => ({ text: w.text, start: w.start, end: w.end }));
 		} else {
 			const json = await call('scribe', ep.id, () => {
@@ -222,53 +269,47 @@ async function processEpisode(ep) {
 				.filter((w) => w.type === 'word' && typeof w.start === 'number')
 				.map((w) => ({ text: w.text, start: w.start, end: w.end }));
 		}
-		const theirs = providerWords.map((w) => norm(w.text));
-		const map = matchWords(oursNorm, theirs);
-		anchors = map.map((j) => (j >= 0 ? providerWords[j].start : null));
-		const anchorEnds = map.map((j) => (j >= 0 ? providerWords[j].end : null));
-		const metrics = scoreOf(anchors, duration);
-		const starts = buildStarts(anchors, duration);
+		const map = matchWords(
+			oursNorm,
+			providerWords.map((w) => norm(w.text))
+		);
 		results[method] = {
-			anchors,
-			starts,
-			ends: buildEnds(anchorEnds, starts, duration, letters),
-			...metrics
+			anchors: map.map((j) => (j >= 0 ? providerWords[j].start : null)),
+			anchorEnds: map.map((j) => (j >= 0 ? providerWords[j].end : null))
 		};
 	}
 
-	// Choose the better method; on a tie, prefer forced alignment.
-	const order = methods
-		.slice()
-		.sort((a, b) => results[b].score - results[a].score || (a === 'forced' ? -1 : 1));
-	const chosen = order[0];
-	const r = results[chosen];
-	const summary = Object.fromEntries(
-		methods.map((m) => [
-			m,
-			{
-				coverage: round(results[m].coverage),
-				maxRun: results[m].maxRun,
-				lastAnchor: round(results[m].lastAnchor),
-				score: round(results[m].score)
-			}
-		])
-	);
+	let anchors;
+	let anchorEnds;
+	let method;
+	let from = null;
+	if (methods.length === 2) {
+		({ anchors, anchorEnds, from } = mergeAnchors(results.scribe, results.forced, duration));
+		method = 'merged';
+	} else {
+		method = methods[0];
+		({ anchors, anchorEnds } = results[method]);
+	}
+	const metrics = scoreOf(anchors, duration);
+	const starts = buildStarts(anchors, duration);
+	const ends = buildEnds(anchorEnds, starts, duration, letters);
 	fs.writeFileSync(
 		path.join(TIMINGS, `${ep.id}.json`),
 		JSON.stringify({
-			method: chosen,
+			method,
 			words: ours.length,
 			duration,
-			starts: r.starts.map(round3),
-			ends: r.ends.map(round3)
+			starts: starts.map(round3),
+			ends: ends.map(round3)
 		})
 	);
+	const summary = { coverage: round(metrics.coverage), maxRun: metrics.maxRun, from };
 	return {
 		id: ep.id,
 		title: ep.title,
 		words: ours.length,
 		duration: round(duration),
-		chosen,
+		method,
 		summary
 	};
 }
@@ -285,6 +326,6 @@ for (const ep of episodes) {
 	process.stdout.write(`${ep.id} ${ep.title} ... `);
 	const r = await processEpisode(ep);
 	report.push(r);
-	console.log(`${r.chosen} (${JSON.stringify(r.summary)})`);
+	console.log(`${r.method} ${JSON.stringify(r.summary)}`);
 }
 if (!only) fs.writeFileSync(REPORT, JSON.stringify(report, null, 2));

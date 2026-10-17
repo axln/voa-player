@@ -2,357 +2,272 @@
 	{
 		"id": 13416,
 		"title": "US Postal Service Warns of Default",
-		"words": 483,
+		"words": 474,
 		"duration": 237.584,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.967,
-				"maxRun": 2,
-				"lastAnchor": 237.56,
-				"score": 0.959
-			},
-			"scribe": {
-				"coverage": 0.942,
-				"maxRun": 3,
-				"lastAnchor": 237.2,
-				"score": 0.93
+			"coverage": 0.97,
+			"maxRun": 2,
+			"from": {
+				"scribe": 455,
+				"forced": 5,
+				"none": 14
 			}
 		}
 	},
 	{
 		"id": 13417,
 		"title": "Obama Seeks Quick Passage of Jobs Bill",
-		"words": 664,
+		"words": 646,
 		"duration": 303.125,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.983,
-				"maxRun": 3,
-				"lastAnchor": 302.941,
-				"score": 0.974
-			},
-			"scribe": {
-				"coverage": 0.898,
-				"maxRun": 34,
-				"lastAnchor": 298.94,
-				"score": 0.795
+			"coverage": 0.937,
+			"maxRun": 33,
+			"from": {
+				"scribe": 596,
+				"forced": 9,
+				"none": 41
 			}
 		}
 	},
 	{
 		"id": 13418,
 		"title": "Gut Bacteria: We Are What We Eat",
-		"words": 480,
+		"words": 471,
 		"duration": 240.927,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.967,
-				"maxRun": 2,
-				"lastAnchor": 240.86,
-				"score": 0.958
-			},
-			"scribe": {
-				"coverage": 0.965,
-				"maxRun": 3,
-				"lastAnchor": 240.4,
-				"score": 0.952
+			"coverage": 0.983,
+			"maxRun": 2,
+			"from": {
+				"scribe": 463,
+				"forced": 0,
+				"none": 8
 			}
 		}
 	},
 	{
 		"id": 13419,
 		"title": "How Technology Has, and Has Not, Changed Since 9-11",
-		"words": 447,
+		"words": 443,
 		"duration": 239.229,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.96,
-				"maxRun": 2,
-				"lastAnchor": 238.36,
-				"score": 0.951
-			},
-			"scribe": {
-				"coverage": 0.955,
-				"maxRun": 2,
-				"lastAnchor": 238.36,
-				"score": 0.946
+			"coverage": 0.973,
+			"maxRun": 2,
+			"from": {
+				"scribe": 427,
+				"forced": 4,
+				"none": 12
 			}
 		}
 	},
 	{
 		"id": 13420,
 		"title": "Experts Defend Way of Life for Herders in East Africa",
-		"words": 468,
+		"words": 462,
 		"duration": 240.536,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.983,
-				"maxRun": 2,
-				"lastAnchor": 240.08,
-				"score": 0.974
-			},
-			"scribe": {
-				"coverage": 0.955,
-				"maxRun": 2,
-				"lastAnchor": 240.08,
-				"score": 0.947
+			"coverage": 0.983,
+			"maxRun": 2,
+			"from": {
+				"scribe": 447,
+				"forced": 7,
+				"none": 8
 			}
 		}
 	},
 	{
 		"id": 13421,
 		"title": "Simple Steps Can Save Millions of Newborn Lives",
-		"words": 471,
+		"words": 464,
 		"duration": 245.812,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.979,
-				"maxRun": 2,
-				"lastAnchor": 245.38,
-				"score": 0.97
-			},
-			"scribe": {
-				"coverage": 0.887,
-				"maxRun": 19,
-				"lastAnchor": 245.1,
-				"score": 0.807
+			"coverage": 0.944,
+			"maxRun": 16,
+			"from": {
+				"scribe": 418,
+				"forced": 20,
+				"none": 26
 			}
 		}
 	},
 	{
 		"id": 13422,
 		"title": "Training Fishermen to Become Fish Farmers",
-		"words": 552,
+		"words": 538,
 		"duration": 240.718,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.982,
-				"maxRun": 2,
-				"lastAnchor": 240.34,
-				"score": 0.975
-			},
-			"scribe": {
-				"coverage": 0.94,
-				"maxRun": 3,
-				"lastAnchor": 240.34,
-				"score": 0.929
+			"coverage": 0.981,
+			"maxRun": 2,
+			"from": {
+				"scribe": 519,
+				"forced": 9,
+				"none": 10
 			}
 		}
 	},
 	{
 		"id": 13423,
 		"title": "Greece's Debt Crisis and the Future of Europe",
-		"words": 479,
+		"words": 466,
 		"duration": 240.536,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.979,
-				"maxRun": 2,
-				"lastAnchor": 239.801,
-				"score": 0.971
-			},
-			"scribe": {
-				"coverage": 0.929,
-				"maxRun": 6,
-				"lastAnchor": 239.82,
-				"score": 0.904
+			"coverage": 0.979,
+			"maxRun": 2,
+			"from": {
+				"scribe": 445,
+				"forced": 11,
+				"none": 10
 			}
 		}
 	},
 	{
 		"id": 13424,
 		"title": "US Poverty Rate Highest Since 1993",
-		"words": 692,
+		"words": 670,
 		"duration": 330.057,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.945,
-				"maxRun": 4,
-				"lastAnchor": 328.521,
-				"score": 0.934
-			},
-			"scribe": {
-				"coverage": 0.841,
-				"maxRun": 10,
-				"lastAnchor": 324.18,
-				"score": 0.812
+			"coverage": 0.943,
+			"maxRun": 4,
+			"from": {
+				"scribe": 582,
+				"forced": 50,
+				"none": 38
 			}
 		}
 	},
 	{
 		"id": 13425,
 		"title": "South Korea Tops 'Information Society' Report",
-		"words": 492,
+		"words": 484,
 		"duration": 269.035,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.976,
-				"maxRun": 2,
-				"lastAnchor": 268.52,
-				"score": 0.967
-			},
-			"scribe": {
-				"coverage": 0.953,
-				"maxRun": 2,
-				"lastAnchor": 268.52,
-				"score": 0.945
+			"coverage": 0.975,
+			"maxRun": 2,
+			"from": {
+				"scribe": 469,
+				"forced": 3,
+				"none": 12
 			}
 		}
 	},
 	{
 		"id": "8001173",
 		"title": "How Daylight Saving Time Affects Health",
-		"words": 789,
+		"words": 676,
 		"duration": 431.308,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.972,
-				"maxRun": 3,
-				"lastAnchor": 430.601,
-				"score": 0.965
-			},
-			"scribe": {
-				"coverage": 0.804,
-				"maxRun": 113,
-				"lastAnchor": 430.34,
-				"score": 0.517
+			"coverage": 0.966,
+			"maxRun": 5,
+			"from": {
+				"scribe": 634,
+				"forced": 19,
+				"none": 23
 			}
 		}
 	},
 	{
 		"id": "8005741",
 		"title": "Total Lunar Eclipse to Turn Moon Red",
-		"words": 487,
+		"words": 446,
 		"duration": 276.924,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.984,
-				"maxRun": 4,
-				"lastAnchor": 275.8,
-				"score": 0.967
-			},
-			"scribe": {
-				"coverage": 0.893,
-				"maxRun": 41,
-				"lastAnchor": 276.18,
-				"score": 0.725
+			"coverage": 0.987,
+			"maxRun": 4,
+			"from": {
+				"scribe": 435,
+				"forced": 5,
+				"none": 6
 			}
 		}
 	},
 	{
 		"id": "7990808",
 		"title": "Knitting While Watching Movies Gains Popularity",
-		"words": 619,
+		"words": 457,
 		"duration": 260.049,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.943,
-				"maxRun": 20,
-				"lastAnchor": 258.959,
-				"score": 0.879
-			},
-			"scribe": {
-				"coverage": 0.711,
-				"maxRun": 150,
-				"lastAnchor": 259.16,
-				"score": 0.226
+			"coverage": 0.972,
+			"maxRun": 3,
+			"from": {
+				"scribe": 440,
+				"forced": 4,
+				"none": 13
 			}
 		}
 	},
 	{
 		"id": "8003108",
 		"title": "'Watching the Grass Grow' Is Not Fun",
-		"words": 384,
+		"words": 326,
 		"duration": 199.863,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.969,
-				"maxRun": 3,
-				"lastAnchor": 199.62,
-				"score": 0.953
-			},
-			"scribe": {
-				"coverage": 0.784,
-				"maxRun": 78,
-				"lastAnchor": 180.42,
-				"score": 0.178
+			"coverage": 0.972,
+			"maxRun": 3,
+			"from": {
+				"scribe": 301,
+				"forced": 16,
+				"none": 9
 			}
 		}
 	},
 	{
 		"id": "8002695",
 		"title": "Australian Navy Rescues Rower Crossing Pacific from California",
-		"words": 485,
+		"words": 420,
 		"duration": 222.224,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.973,
-				"maxRun": 4,
-				"lastAnchor": 220.821,
-				"score": 0.957
-			},
-			"scribe": {
-				"coverage": 0.821,
-				"maxRun": 65,
-				"lastAnchor": 220.2,
-				"score": 0.553
+			"coverage": 0.988,
+			"maxRun": 3,
+			"from": {
+				"scribe": 398,
+				"forced": 17,
+				"none": 5
 			}
 		}
 	},
 	{
 		"id": "7995839",
 		"title": "Sew and Knit",
-		"words": 485,
+		"words": 379,
 		"duration": 226.142,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.994,
-				"maxRun": 3,
-				"lastAnchor": 224.56,
-				"score": 0.981
-			},
-			"scribe": {
-				"coverage": 0.777,
-				"maxRun": 106,
-				"lastAnchor": 224.2,
-				"score": 0.34
+			"coverage": 0.995,
+			"maxRun": 2,
+			"from": {
+				"scribe": 377,
+				"forced": 0,
+				"none": 2
 			}
 		}
 	},
 	{
 		"id": "6724744",
 		"title": "Reviewing Your Birthday Message",
-		"words": 698,
+		"words": 627,
 		"duration": 356.702,
-		"chosen": "forced",
+		"method": "merged",
 		"summary": {
-			"forced": {
-				"coverage": 0.994,
-				"maxRun": 4,
-				"lastAnchor": 356.02,
-				"score": 0.983
-			},
-			"scribe": {
-				"coverage": 0.865,
-				"maxRun": 71,
-				"lastAnchor": 355.96,
-				"score": 0.662
+			"coverage": 0.994,
+			"maxRun": 4,
+			"from": {
+				"scribe": 604,
+				"forced": 19,
+				"none": 4
 			}
 		}
 	}

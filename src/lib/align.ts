@@ -6,17 +6,68 @@ export type Parsed = { paragraphs: Piece[][]; weights: number[] };
 
 const WORD = /([\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*)/u;
 
+// VOA's vocabulary list at the end of a story, e.g. "cozy –adj. a feeling of ease and warmth".
+const VOCAB = /^[^\n]{1,60}?\s[–—-]\s?(n|v|adj|adv|prep|pron|conj|interj|phr|idiom|det|modal)\b\./;
+// Printed credits after the sign-off, e.g. "Kiyoko Metzler reported this story for AFP…" or "Contributing: …".
+// They are not narrated (checked against the word timestamps of several episodes).
+const CREDIT =
+	/(reported (this|the|on this) story for|adapted (it|this) for VOA|wrote this lesson for VOA|^Contributing\b)/i;
+
+export function isVocabulary(block: string): boolean {
+	return VOCAB.test(block.trim());
+}
+
+// A speaker label at the start of a paragraph, e.g. "CASSENDRA WALLER: " in a direct-speech block. Printed, not spoken.
+const SPEAKER = /^(?:[A-Z][A-Z.'’-]+)(?:\s+[A-Z][A-Z.'’-]+){0,3}\s*:\s*/;
+
+export function speakerLabel(block: string): string {
+	return block.match(SPEAKER)?.[0] ?? '';
+}
+
+export function isCredit(block: string): boolean {
+	const t = block.trim();
+	return t.length < 400 && CREDIT.test(t);
+}
+
+// The paragraphs of a transcript body, without separator lines.
+export function blocksOf(text: string): string[] {
+	return text
+		.split(/\n\s*\n/)
+		.map((b) => b.replace(/_{3,}/g, '').trim())
+		.filter(Boolean);
+}
+
+// For each paragraph, whether it is printed but not narrated: vocabulary, and the credits and notes after the last spoken paragraph.
+export function nonSpokenFlags(blocks: string[]): boolean[] {
+	const flags = blocks.map((b) => isVocabulary(b));
+	for (let i = blocks.length - 1; i >= 0; i--) {
+		if (flags[i]) continue;
+		if (isCredit(blocks[i])) flags[i] = true;
+		else break;
+	}
+	return flags;
+}
+
+// The paragraphs that are narrated (the text sent to the aligners).
+export function spokenParagraphs(text: string): string[] {
+	const blocks = blocksOf(text);
+	const flags = nonSpokenFlags(blocks);
+	return blocks.filter((_, i) => !flags[i]).map((b) => b.slice(speakerLabel(b).length));
+}
+
 export function parseTranscript(text: string): Parsed {
 	const weights: number[] = [];
 	const paragraphs: Piece[][] = [];
-	for (const block of text.split(/\n\s*\n/)) {
-		const raw = block.replace(/_{3,}/g, '').trim(); // drop separator lines of underscores
-		if (!raw) continue;
-		const parts = raw.split(WORD); // odd indices are words
-		const pieces: Piece[] = [];
+	const blocks = blocksOf(text);
+	const flags = nonSpokenFlags(blocks);
+	for (const [bi, raw] of blocks.entries()) {
+		const spoken = !flags[bi];
+		const label = speakerLabel(raw);
+		const pieces: Piece[] = label ? [{ text: label, word: -1 }] : [];
+		const parts = raw.slice(label.length).split(WORD); // odd indices are words
 		for (let i = 0; i < parts.length; i++) {
 			if (parts[i] === '') continue;
-			if (i % 2 === 1) {
+			if (i % 2 === 1 && spoken) {
 				weights.push(0);
 				pieces.push({ text: parts[i], word: weights.length - 1 });
 			} else {

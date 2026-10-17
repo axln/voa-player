@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
+	import ScrollTop from '../lib/components/ScrollTop.svelte';
 	import { resolve } from '$app/paths';
 	import type { LayoutProps } from './$types';
 
@@ -9,6 +10,12 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<!-- Noto Sans places Cyrillic stress marks cleanly; used for the dictionary card -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+	/>
 	<title>VOA Player</title>
 </svelte:head>
 
@@ -28,6 +35,8 @@
 <main>
 	{@render children()}
 </main>
+
+<ScrollTop />
 
 <style>
 	.top {
