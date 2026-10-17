@@ -13,7 +13,7 @@ A player for VOA Special English audio material. It plays an episode while the o
 - Each episode needs: audio file, official transcript text, and ideally word- or sentence-level timing for the highlight. If timing is missing, we need a way to create it (for example forced alignment), and that is a separate decision.
 - Keep the collected sample set in a dedicated folder (`data/`), with one entry per article: title, date, source URL, audio URL, transcript source.
 - Record the source of every file so licensing and provenance stay traceable.
-- Two sample sets, both with transcripts and MP3s (MP3s git-ignored):
+- Two sample sets, both with transcripts and MP3s (MP3s committed):
   - `data/episodes.json`: 10 Sept 2011 Special English reports, from manythings.org mirror pages. Those pages' voanews.com text links are 404 now, so the text is a mirror copy.
   - `data/episodes-2025.json`: 7 stories from 7 different sections, Feb–Mar 2025, taken from learningenglish.voanews.com. Transcripts are in `data/learning-english/<section>/`. These are the article texts from VOA's own site.
 - Freshness: the article sections on learningenglish.voanews.com (and their RSS feeds) stop at about 14 March 2025. Section and archive pages show the same snapshot for every date. Newer items exist as daily podcast audio (e.g., Dec 2025 MP3s on the live page), but their article pages did not load, so no transcripts were found after March 2025.
@@ -23,4 +23,4 @@ A player for VOA Special English audio material. It plays an episode while the o
 ## Working rules
 
 - Keep the code small. Prefer the platform (browser audio, HTML/CSS/JS) over new dependencies until the player needs one.
-- Do not commit downloaded audio to git.
+- Audio files are committed to the repo, because GitHub Pages serves them. Keep each file under GitHub's 100 MB limit and the Pages site under 1 GB.
