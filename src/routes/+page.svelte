@@ -35,6 +35,7 @@
 </script>
 
 <svelte:head>
+	<title>VOA Player</title>
 	<meta
 		name="description"
 		content="Listen to VOA Special English while following the transcript, word by word."
