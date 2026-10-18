@@ -200,7 +200,13 @@
 	// Keep the spoken word in view while playing.
 	$effect(() => {
 		if (!autoScroll || active < 0 || !playing) return;
-		document.getElementById(`w${active}`)?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+		// Aim a bit above the middle, so there are a few lines below the reading line, clear of the bottom dock.
+		const el = document.getElementById(`w${active}`);
+		if (el)
+			window.scrollTo({
+				top: el.getBoundingClientRect().top + window.scrollY - window.innerHeight * 0.4,
+				behavior: 'smooth'
+			});
 	});
 
 	function togglePlay() {
