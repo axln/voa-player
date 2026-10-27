@@ -29,3 +29,6 @@ scripts/align/.cache/
 
 # FreeDict source archive used to build the dictionary
 scripts/dict/.cache/
+
+# Episode ingest cache (sitemap list, staged pages)
+scripts/ingest/.cache/

@@ -42,16 +42,17 @@ yarn dev
 
 Other scripts:
 
-| Command          | What it does                               |
-| ---------------- | ------------------------------------------ |
-| `yarn build`     | Build the static site into `build/`        |
-| `yarn preview`   | Serve the production build locally         |
-| `yarn check`     | Type-check the project with `svelte-check` |
-| `yarn lint`      | Run Prettier and ESLint                    |
-| `yarn test:unit` | Run unit tests with Vitest                 |
-| `yarn test:e2e`  | Run end-to-end tests with Playwright       |
-| `yarn align`     | Regenerate word timings (needs `.env`)     |
-| `yarn dict`      | Rebuild the word dictionary from FreeDict  |
+| Command                            | What it does                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------- |
+| `yarn build`                       | Build the static site into `build/`                                       |
+| `yarn preview`                     | Serve the production build locally                                        |
+| `yarn check`                       | Type-check the project with `svelte-check`                                |
+| `yarn lint`                        | Run Prettier and ESLint                                                   |
+| `yarn test:unit`                   | Run unit tests with Vitest                                                |
+| `yarn test:e2e`                    | Run end-to-end tests with Playwright                                      |
+| `yarn align`                       | Regenerate word timings (needs `.env`)                                    |
+| `yarn dict`                        | Rebuild the word dictionary from FreeDict                                 |
+| `python3 scripts/ingest/ingest.py` | Add episodes from learningenglish.voanews.com (see CLAUDE.md, Data notes) |
 
 ## Stack
 
